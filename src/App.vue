@@ -1,30 +1,43 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <Navbar
+    :pages="pages"
+    :activePage="activePage"
+    @page-change="setActivePage"
+  />
   <router-view/>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import Navbar from "./components/NavbarMenu.vue";
 
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+export default {
+  name: "App",
+  components: {
+    Navbar,
+  },
+  data() {
+    return {
+      activePage: 0,
+      pages: [
+        { link: { text: "Home", url: "/" } },
+        { link: { text: "Merchandise", url: "/merchandise" } },
+        { link: { text: "Potter", url: "/potter" } },
+        { link: { text: "Ginny", url: "/ginny" } },
+        { link: { text: "Ron", url: "/ron" } },
+        { link: { text: "Granger", url: "/granger" } },
+        { link: { text: "Luna", url: "/luna" } },
+        { link: { text: "Sirius", url: "/sirius" } },
+        { link: { text: "Lupin", url: "/lupin" } },
+        { link: { text: "Dumbledore", url: "/dumbledore" } },
+        { link: { text: "McGonagall", url: "/mcgonagall" } },
+        { link: { text: "Snape", url: "/snape" } },
+      ],
+    };
+  },
+  methods: {
+    setActivePage(index) {
+      this.activePage = index;
+    },
+  },
+};
+</script>
