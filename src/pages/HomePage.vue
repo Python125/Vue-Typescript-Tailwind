@@ -4,7 +4,7 @@
     <img
       :src="ollivandersImage"
       alt="Ollivanders Store"
-      class="ollivanders-logo w-2/3 sm:w-1/2 lg:w-1/3 mx-auto py-5"
+      class="w-2/3 sm:w-1/2 lg:w-1/3 mx-auto py-5"
     />
 
     <section class="featured-products text-center">

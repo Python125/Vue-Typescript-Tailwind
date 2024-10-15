@@ -3,7 +3,7 @@
     <img
       :src="ollivandersImage"
       alt="Ollivanders Store"
-      class="ollivanders-logo w-2/3 sm:w-1/2 lg:w-1/3 mx-auto py-6"
+      class="w-2/3 sm:w-1/2 lg:w-1/3 mx-auto py-6"
     />
     <div class="flex ml-48rem">
       <div>
