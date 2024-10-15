@@ -193,7 +193,7 @@
               <button
                 class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
-                Remus Lupin
+              Professor Lupin
               </button>
             </router-link>
           </div>

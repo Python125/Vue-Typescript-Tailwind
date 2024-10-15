@@ -14,7 +14,7 @@
         <h1 class="text-4xl text-center">Interactive Hermione Granger™ Wand</h1>
       </div>
 
-      <div class="mt-16 -ml-31rem">
+      <div class="mt-16 -ml-37.7rem">
         <div>
           <div class="text-custom-lightblue text-2xl font-bold">$65.00</div>
         </div>
