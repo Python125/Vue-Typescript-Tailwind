@@ -12,7 +12,10 @@ module.exports = {
         "48rem": "48rem",
         "31rem": "31.2rem",
         "42rem": "42rem",
-        "12.5rem": "12.5rem",
+        "12.7rem": "12.7rem",
+
+        // "33.6rem": "33.6rem",
+        // "31.7rem": "31.7rem",
       },
     },
   },

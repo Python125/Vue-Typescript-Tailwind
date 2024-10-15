@@ -1,120 +1,119 @@
 <template>
-  <div class="merchandise">
-    <div class="merchandise-container">
-      <img
-        :src="ollivandersImage"
-        alt="Ollivanders Store"
-        class="ollivanders-logo w-2/3 sm:w-1/2 lg:w-1/3 mx-auto py-5"
-      />
-      <h1 class="text-4xl text-center">
-        Check Out Our Magical Merchandise Below
-      </h1>
-      <div class="border-t border-gray-custom my-4"></div>
+  <div class="flex flex-col items-center p-2">
+    <img
+      :src="ollivandersImage"
+      alt="Ollivanders Store"
+      class="ollivanders-logo w-2/3 sm:w-1/2 lg:w-1/3 mx-auto py-5"
+    />
+    <h1 class="text-4xl text-center">
+      Check Out Our Magical Merchandise Below
+    </h1>
+    <div class="border-t border-gray-custom my-4"></div>
 
-      <section class="featured-products text-center">
-        <h2 class="text-3xl font-semibold text-custom-lightblue mb-6">
-          Wands From Your Favorite Characters
-        </h2>
+    <section class="featured-products text-center">
+      <h2 class="text-3xl font-semibold text-custom-lightblue mb-6">
+        Wands From Your Favorite Characters
+      </h2>
+      <div
+        class="product-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-20 py-5"
+      >
         <div
-          class="product-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-20 py-5"
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
         >
-          <div
-            class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
-          >
-            <img
-              :src="potterWand"
-              alt="Potter"
-              class="w-48 h-48 object-cover rounded-lg mb-4"
-            />
-            <div class="mt-0.5">
-              <router-link to="/potter">
-                <button
-                  class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
-                >
-                  Harry Potter
-                </button>
-              </router-link>
-            </div>
+          <img
+            :src="potterWand"
+            alt="Potter"
+            class="w-48 h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/potter">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Harry Potter
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <div
-            class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
-          >
-            <img
-              :src="ginnyWand"
-              alt="Ginny"
-              class="w-48 h-48 object-cover rounded-lg mb-4"
-            />
-            <div class="mt-0.5">
-              <router-link to="/ginny">
-                <button
-                  class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
-                >
-                  Ginny Weasley
-                </button>
-              </router-link>
-            </div>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="ginnyWand"
+            alt="Ginny"
+            class="w-48 h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/ginny">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Ginny Weasley
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <div
-            class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
-          >
-            <img
-              :src="ronWand"
-              alt="Ron"
-              class="w-48 h-48 object-cover rounded-lg mb-4"
-            />
-            <div class="mt-0.5">
-              <router-link to="/ron">
-                <button
-                  class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue"
-                >
-                  Ron Weasley
-                </button>
-              </router-link>
-            </div>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="ronWand"
+            alt="Ron"
+            class="w-48 h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/ron">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue"
+              >
+                Ron Weasley
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <div
-            class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
-          >
-            <img
-              :src="hermioneWand"
-              alt="Hermione"
-              class="w-48 h-48 object-cover rounded-lg mb-4"
-            />
-            <div class="mt-0.5">
-              <router-link to="/granger">
-                <button
-                  class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue"
-                >
-                  Hermione Granger
-                </button>
-              </router-link>
-            </div>
-            <h3 class="text-xl font-semibold text-white">Hermione Granger</h3>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="hermioneWand"
+            alt="Hermione"
+            class="w-48 h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/granger">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue"
+              >
+                Hermione Granger
+              </button>
+            </router-link>
           </div>
+          <h3 class="text-xl font-semibold text-white">Hermione Granger</h3>
+        </div>
 
-          <div
-            class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
-          >
-            <img
-              :src="lunaWand"
-              alt="Lovegood"
-              class="w-48 h-48 object-cover rounded-lg mb-4"
-            />
-            <div class="mt-0.5">
-              <router-link to="/luna">
-                <button
-                  class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
-                >
-                  Luna Lovegood
-                </button>
-              </router-link>
-            </div>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="lunaWand"
+            alt="Lovegood"
+            class="w-48 h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/luna">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Luna Lovegood
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <!-- <div
+        <!-- <div
             class="product-card p-6 border border-yellow-500 rounded-lg shadow-xl"
           >
             <img
@@ -162,102 +161,102 @@
             </h3>
           </div> -->
 
-          <div
-            class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
-          >
-            <img
-              :src="blackWand"
-              alt="Sirius"
-              class="w-48 h-48 object-cover rounded-lg mb-4"
-            />
-            <div class="mt-0.5">
-              <router-link to="/sirius">
-                <button
-                  class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
-                >
-                  Sirius Black
-                </button>
-              </router-link>
-            </div>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="blackWand"
+            alt="Sirius"
+            class="w-48 h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/sirius">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Sirius Black
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <div
-            class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
-          >
-            <img
-              :src="lupinWand"
-              alt="Lupin"
-              class="w-48 h-48 object-cover rounded-lg mb-4"
-            />
-            <div class="mt-0.5">
-              <router-link to="/lupin">
-                <button
-                  class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
-                >
-                  Remus Lupin
-                </button>
-              </router-link>
-            </div>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="lupinWand"
+            alt="Lupin"
+            class="w-48 h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/lupin">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Remus Lupin
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <div
-            class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
-          >
-            <img
-              :src="dumbledoreWand"
-              alt="Dumbledore"
-              class="w-48 h-48 object-cover rounded-lg mb-4"
-            />
-            <div class="mt-0.5">
-              <router-link to="/dumbledore">
-                <button
-                  class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
-                >
-                  Professor Dumbledore
-                </button>
-              </router-link>
-            </div>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="dumbledoreWand"
+            alt="Dumbledore"
+            class="w-48 h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/dumbledore">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Professor Dumbledore
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <div
-            class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
-          >
-            <img
-              :src="mcgonagallWand"
-              alt="McGonagall"
-              class="w-48 h-48 object-cover rounded-lg mb-4"
-            />
-            <div class="mt-0.5">
-              <router-link to="/mcgonagall">
-                <button
-                  class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
-                >
-                  Professor McGonagall
-                </button>
-              </router-link>
-            </div>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="mcgonagallWand"
+            alt="McGonagall"
+            class="w-48 h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/mcgonagall">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Professor McGonagall
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <div
-            class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
-          >
-            <img
-              :src="snapeWand"
-              alt="Snape"
-              class="w-48 h-48 object-cover rounded-lg mb-4"
-            />
-            <div class="mt-0.5">
-              <router-link to="/snape">
-                <button
-                  class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
-                >
-                  Professor Snape
-                </button>
-              </router-link>
-            </div>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="snapeWand"
+            alt="Snape"
+            class="w-48 h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/snape">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Professor Snape
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <!-- <div
+        <!-- <div
             class="product-card p-6 border border-yellow-500 rounded-lg shadow-xl"
           >
             <img
@@ -328,32 +327,31 @@
             />
             <h3 class="text-xl font-semibold text-yellow-400">Voldemort</h3>
           </div> -->
-        </div>
-        <div class="mt-10">
-          <router-link to="/">
-            <button
-              class="mt-12 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl transform transition-transform hover:scale-125"
-            >
-              Back to Home Page
-            </button>
-          </router-link>
-        </div>
-      </section>
-      <footer class="py-6 text-center text-black mt-12">
-        <p>&copy; 2024 Ollivanders. Makers of Fine Wands since 382 B.C.</p>
-        <div class="mt-4">
-          <a href="#" class="hover:underline mx-2">About Us</a> |
-          <a href="#" class="hover:underline mx-2">Contact</a> |
-          <a href="#" class="hover:underline mx-2">Terms & Conditions</a>
-        </div>
-        <div class="mt-6">
-          <p>Follow Us:</p>
-          <a href="#" class="hover:underline mx-2">Facebook</a> |
-          <a href="#" class="hover:underline mx-2">Twitter</a> |
-          <a href="#" class="hover:underline mx-2">Instagram</a>
-        </div>
-      </footer>
-    </div>
+      </div>
+      <div class="mt-10">
+        <router-link to="/">
+          <button
+            class="mt-12 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl transform transition-transform hover:scale-125"
+          >
+            Back to Home Page
+          </button>
+        </router-link>
+      </div>
+    </section>
+    <footer class="py-6 text-center text-black mt-12">
+      <p>&copy; 2024 Ollivanders. Makers of Fine Wands since 382 B.C.</p>
+      <div class="mt-4">
+        <a href="#" class="hover:underline mx-2">About Us</a> |
+        <a href="#" class="hover:underline mx-2">Contact</a> |
+        <a href="#" class="hover:underline mx-2">Terms & Conditions</a>
+      </div>
+      <div class="mt-6">
+        <p>Follow Us:</p>
+        <a href="#" class="hover:underline mx-2">Facebook</a> |
+        <a href="#" class="hover:underline mx-2">Twitter</a> |
+        <a href="#" class="hover:underline mx-2">Instagram</a>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -388,12 +386,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.merchandise-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5px;
-}
-</style>
