@@ -4,36 +4,37 @@
       <img
         :src="ollivandersImage"
         alt="Ollivanders Store"
-        class="ollivanders-logo w-2/3 sm:w-1/2 lg:w-1/3 mx-auto py-6"
+        class="w-2/3 sm:w-1/2 lg:w-1/3 mx-auto py-6"
       />
-      <div class="potter-info">
+      <div class="flex ml-48rem">
         <div>
           <img :src="potterWand" alt="Potter" class="w-96" />
           <div class="mt-0.5"></div>
         </div>
-        <div class="potter-title">
+        <div class="ml-16">
           <h1 class="text-4xl text-center">Interactive Harry Potter™ Wand</h1>
         </div>
-        <div class="potter-price">
-          <div class="text-custom-lightblue text-2xl font-bold">$65.00</div>
+
+        <div class="mt-16 -ml-31rem">
+          <div>
+            <div class="text-custom-lightblue text-2xl font-bold">$65.00</div>
+          </div>
+          <form class="text-lg mt-4 text-custom-gray">
+            <label for="quantity">Quantity </label>
+            <input type="number" id="quantity" min="0" max="10" />
+          </form>
+          <div class="mt-2">
+            <router-link to="/potter">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Add to Cart
+              </button>
+            </router-link>
+          </div>
         </div>
 
-        <form class="potter-quantity">
-          <label for="quantity">Quantity </label>
-          <input type="number" id="quantity" min="0" max="10" />
-        </form>
-
-        <div class="potter-link">
-          <router-link to="/potter">
-            <button
-              class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
-            >
-              Add to Cart
-            </button>
-          </router-link>
-        </div>
-
-        <div class="home-link">
+        <div class="mt-42rem -ml-12.5rem">
           <router-link to="/merchandise">
             <button
               class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
@@ -75,27 +76,6 @@ export default {
 </script>
 
 <style scoped>
-.potter-info {
-  margin-left: 30%;
-  display: flex;
-}
-
-.potter-title {
-  margin-left: 5%;
-}
-
-.potter-price {
-  margin-top: 4%;
-  margin-left: -28%;
-}
-
-.potter-quantity {
-  font-size: 20px;
-  margin-left: -4.5%;
-  margin-top: 7%;
-  margin-bottom: 35%;
-}
-
 /* Hide the spin buttons for Chrome, Safari, and Edge */
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
@@ -105,17 +85,8 @@ input[type="number"]::-webkit-inner-spin-button {
 
 /* Hide the spin buttons for Firefox */
 input[type="number"] {
-  /* -moz-appearance: textfield; */ /* COME BACK TO THIS LINE LATER ON */
+  /* COME BACK TO LINE 88 LATER ON */
+  /* -moz-appearance: textfield; */
   border: 2px solid black;
-}
-
-.potter-link {
-  margin-top: 10%;
-  margin-left: -9%;
-}
-
-.home-link {
-  margin-top: 40%;
-  margin-left: -12.5%;
 }
 </style>

@@ -396,18 +396,4 @@ export default {
   align-items: center;
   padding: 5px;
 }
-
-/* .ollivanders-logo {
-  animation: float 3s ease-in-out infinite;
-}
-
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(15.5px);
-  }
-  50% {
-    transform: translateY(-15.5px);
-  }
-} */
 </style>
