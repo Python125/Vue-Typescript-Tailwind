@@ -113,53 +113,84 @@
           </div>
         </div>
 
-        <!-- <div
-            class="product-card p-6 border border-yellow-500 rounded-lg shadow-xl"
-          >
-            <img
-              :src="authurWand"
-              alt="Authur"
-              class="w-full h-48 object-cover rounded-lg mb-4"
-            />
-            <h3 class="text-xl font-semibold text-yellow-400">
-              Authur Weasley
-            </h3>
+        <!-- 
+        
+      <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="authurWand"
+            alt="Authur"
+            class="w-full h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/luna">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Authur Weasley
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <div
-            class="product-card p-6 border border-yellow-500 rounded-lg shadow-xl"
-          >
-            <img
-              :src="mollyWand"
-              alt="Molly"
-              class="w-full h-48 object-cover rounded-lg mb-4"
-            />
-            <h3 class="text-xl font-semibold text-yellow-400">Molly Weasley</h3>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="mollyWand"
+            alt="Molly"
+            class="w-full h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/luna">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Molly Weasley
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <div
-            class="product-card p-6 border border-yellow-500 rounded-lg shadow-xl"
-          >
-            <img
-              :src="fredWand"
-              alt="Fred"
-              class="w-full h-48 object-cover rounded-lg mb-4"
-            />
-            <h3 class="text-xl font-semibold text-yellow-400">Fred Weasley</h3>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="fredWand"
+            alt="Fred"
+            class="w-full h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/luna">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Fred Weasley
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <div
-            class="product-card p-6 border border-yellow-500 rounded-lg shadow-xl"
-          >
-            <img
-              :src="georgeWand"
-              alt="George"
-              class="w-full h-48 object-cover rounded-lg mb-4"
-            />
-            <h3 class="text-xl font-semibold text-yellow-400">
-              George Weasley
-            </h3>
-          </div> -->
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="georgeWand"
+            alt="George"
+            class="w-full h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/luna">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                George Weasley
+              </button>
+            </router-link>
+          </div>
+        </div>
+      -->
 
         <div
           class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
@@ -193,7 +224,7 @@
               <button
                 class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
-              Professor Lupin
+                Professor Lupin
               </button>
             </router-link>
           </div>
@@ -256,78 +287,122 @@
           </div>
         </div>
 
-        <!-- <div
-            class="product-card p-6 border border-yellow-500 rounded-lg shadow-xl"
-          >
-            <img
-              :src="madEyeWand"
-              alt="MadEye"
-              class="w-full h-48 object-cover rounded-lg mb-4"
-            />
-            <h3 class="text-xl font-semibold text-yellow-400">Mad-Eye Moody</h3>
+        <!-- 
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="madEyeWand"
+            alt="MadEye"
+            class="w-full h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/snape">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Mad-Eye Moody
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <div
-            class="product-card p-6 border border-yellow-500 rounded-lg shadow-xl"
-          >
-            <img
-              :src="tonksWand"
-              alt="Tonks"
-              class="w-full h-48 object-cover rounded-lg mb-4"
-            />
-            <h3 class="text-xl font-semibold text-yellow-400">
-              Nymphadora Tonks
-            </h3>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="tonksWand"
+            alt="Tonks"
+            class="w-full h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/snape">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Nymphadora Tonks
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <div
-            class="product-card p-6 border border-yellow-500 rounded-lg shadow-xl"
-          >
-            <img
-              :src="nevilleWand"
-              alt="Neville"
-              class="w-full h-48 object-cover rounded-lg mb-4"
-            />
-            <h3 class="text-xl font-semibold text-yellow-400">
-              Neville Longbottom
-            </h3>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="nevilleWand"
+            alt="Neville"
+            class="w-full h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/snape">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Neville Longbottom
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <div
-            class="product-card p-6 border border-yellow-500 rounded-lg shadow-xl"
-          >
-            <img
-              :src="dracoWand"
-              alt="Draco"
-              class="w-full h-48 object-cover rounded-lg mb-4"
-            />
-            <h3 class="text-xl font-semibold text-yellow-400">Draco Malfoy</h3>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="dracoWand"
+            alt="Draco"
+            class="w-full h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/snape">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Draco Malfoy
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <div
-            class="product-card p-6 border border-yellow-500 rounded-lg shadow-xl"
-          >
-            <img
-              :src="narcissaWand"
-              alt="Narcissa"
-              class="w-full h-48 object-cover rounded-lg mb-4"
-            />
-            <h3 class="text-xl font-semibold text-yellow-400">
-              Narcissa Malfoy
-            </h3>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="narcissaWand"
+            alt="Narcissa"
+            class="w-full h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/snape">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Narcissa Malfoy
+              </button>
+            </router-link>
           </div>
+        </div>
 
-          <div
-            class="product-card p-6 border border-yellow-500 rounded-lg shadow-xl"
-          >
-            <img
-              :src="voldemortWand"
-              alt="Voldemort"
-              class="w-full h-48 object-cover rounded-lg mb-4"
-            />
-            <h3 class="text-xl font-semibold text-yellow-400">Voldemort</h3>
-          </div> -->
-      </div>
+        <div
+          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        >
+          <img
+            :src="voldemortWand"
+            alt="Voldemort"
+            class="w-full h-48 object-cover rounded-lg mb-4"
+          />
+          <div class="mt-0.5">
+            <router-link to="/snape">
+              <button
+                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              >
+                Voldemort
+              </button>
+            </router-link>
+          </div>
+        </div> 
+      --></div>
+
       <div class="mt-10">
         <router-link to="/">
           <button
@@ -372,16 +447,16 @@ export default {
       mcgonagallWand: require("@/assets/images/Interactive-Professor-Mcgonagall-Wand.png"),
       snapeWand: require("@/assets/images/Interactive-Professor-Snape-Wand.png"),
 
-      // authurWand: require("@/assets/images/Interactive-Arthur-Weasley-Wand.png"),
-      // mollyWand: require("@/assets/images/Interactive-Molly-Weasley-Wand.png"),
-      // fredWand: require("@/assets/images/Interactive-Fred-Weasley-Wand.png"),
-      // georgeWand: require("@/assets/images/Interactive-George-Weasley-Wand.png"),
-      // madEyeWand: require("@/assets/images/Interactive-Mad-Eye-Moody-Wand.png"),
-      // tonksWand: require("@/assets/images/Interactive-Nymphadora-Tonks-Wand.png"),
-      // nevilleWand: require("@/assets/images/Interactive-Neville-Longbottom-Wand.png"),
-      // dracoWand: require("@/assets/images/Interactive-Draco-Malfoy-Wand.png"),
-      // narcissaWand: require("@/assets/images/Interactive-Narcissa-Malfoy-Wand.png"),
-      // voldemortWand: require("@/assets/images/Interactive-Voldemort-Wand.png"),
+      authurWand: require("@/assets/images/Interactive-Arthur-Weasley-Wand.png"),
+      mollyWand: require("@/assets/images/Interactive-Molly-Weasley-Wand.png"),
+      fredWand: require("@/assets/images/Interactive-Fred-Weasley-Wand.png"),
+      georgeWand: require("@/assets/images/Interactive-George-Weasley-Wand.png"),
+      madEyeWand: require("@/assets/images/Interactive-Mad-Eye-Moody-Wand.png"),
+      tonksWand: require("@/assets/images/Interactive-Nymphadora-Tonks-Wand.png"),
+      nevilleWand: require("@/assets/images/Interactive-Neville-Longbottom-Wand.png"),
+      dracoWand: require("@/assets/images/Interactive-Draco-Malfoy-Wand.png"),
+      narcissaWand: require("@/assets/images/Interactive-Narcissa-Malfoy-Wand.png"),
+      voldemortWand: require("@/assets/images/Interactive-Voldemort-Wand.png"),
     };
   },
 };
