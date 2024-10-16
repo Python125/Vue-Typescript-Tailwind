@@ -1,5 +1,4 @@
 <template>
-  <!-- <div class="min-h-screen"></div> -->
   <div class="flex flex-col items-center p-2">
     <img
       :src="ollivandersImage"
@@ -98,12 +97,12 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
+// import { Options, Vue } from "vue-class-component";
 
-@Options({
-  components: {},
-})
-export default class HomeView extends Vue {
+// @Options({
+//   components: {},
+// })
+export default /* class HomeView extends Vue */ {
   data() {
     return {
       ollivandersImage: require("@/assets/ollivanders-logo.png"),
