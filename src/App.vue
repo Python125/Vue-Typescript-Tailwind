@@ -26,6 +26,7 @@ export default {
         { link: { text: "Ron", url: "/ron" } },
         { link: { text: "Granger", url: "/granger" } },
         { link: { text: "Luna", url: "/luna" } },
+
         { link: { text: "Sirius", url: "/sirius" } },
         { link: { text: "Lupin", url: "/lupin" } },
         { link: { text: "Dumbledore", url: "/dumbledore" } },
