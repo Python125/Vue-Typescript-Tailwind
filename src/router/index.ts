@@ -40,11 +40,27 @@ const routes: Array<RouteRecordRaw> = [
     name: "luna",
     component: () => import("../pages/LunaPage.vue"),
   },
-  // {
-  //   path: "",
-  //   name: "",
-  //   component: () => import("../pages/"),
-  // },
+
+  {
+    path: "/arthur",
+    name: "arthur",
+    component: () => import("../pages/ArthurPage.vue"),
+  },
+  {
+    path: "/molly",
+    name: "molly",
+    component: () => import("../pages/MollyPage.vue"),
+  },
+  {
+    path: "/fred",
+    name: "fred",
+    component: () => import("../pages/FredPage.vue"),
+  },
+  {
+    path: "/george",
+    name: "george",
+    component: () => import("../pages/GeorgePage.vue"),
+  },
   {
     path: "/sirius",
     name: "sirius",
@@ -69,6 +85,36 @@ const routes: Array<RouteRecordRaw> = [
     path: "/snape",
     name: "snape",
     component: () => import("../pages/SnapePage.vue"),
+  },
+  {
+    path: "/madeye",
+    name: "madeye",
+    component: () => import("../pages/MadEyePage.vue"),
+  },
+  {
+    path: "/tonks",
+    name: "tonks",
+    component: () => import("../pages/TonksPage.vue"),
+  },
+  {
+    path: "/neville",
+    name: "neville",
+    component: () => import("../pages/NevillePage.vue"),
+  },
+  {
+    path: "/draco",
+    name: "draco",
+    component: () => import("../pages/DracoPage.vue"),
+  },
+  {
+    path: "/narcissa",
+    name: "narcissa",
+    component: () => import("../pages/NarcissaPage.vue"),
+  },
+  {
+    path: "/voldemort",
+    name: "voldemort",
+    component: () => import("../pages/VoldemortPage.vue"),
   },
 ];
 

@@ -113,22 +113,20 @@
           </div>
         </div>
 
-        <!-- 
-        
         <div
           class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
-            :src="authurWand"
-            alt="Authur"
+            :src="arthurWand"
+            alt="Arthur"
             class="w-full h-48 object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
-            <router-link to="/authur">
+            <router-link to="/arthur">
               <button
                 class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
-                Authur Weasley
+                Arthur Weasley
               </button>
             </router-link>
           </div>
@@ -190,7 +188,6 @@
             </router-link>
           </div>
         </div>
-      -->
 
         <div
           class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
@@ -287,7 +284,6 @@
           </div>
         </div>
 
-        <!-- 
         <div
           class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
         >
@@ -297,7 +293,7 @@
             class="w-full h-48 object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
-            <router-link to="/snape">
+            <router-link to="/madeye">
               <button
                 class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
@@ -316,7 +312,7 @@
             class="w-full h-48 object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
-            <router-link to="/snape">
+            <router-link to="/tonks">
               <button
                 class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
@@ -335,7 +331,7 @@
             class="w-full h-48 object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
-            <router-link to="/snape">
+            <router-link to="/neville">
               <button
                 class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
@@ -354,7 +350,7 @@
             class="w-full h-48 object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
-            <router-link to="/snape">
+            <router-link to="/draco">
               <button
                 class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
@@ -373,7 +369,7 @@
             class="w-full h-48 object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
-            <router-link to="/snape">
+            <router-link to="/narcissa">
               <button
                 class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
@@ -392,7 +388,7 @@
             class="w-full h-48 object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
-            <router-link to="/snape">
+            <router-link to="/voldemort">
               <button
                 class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
@@ -400,8 +396,8 @@
               </button>
             </router-link>
           </div>
-        </div> 
-      --></div>
+        </div>
+      </div>
 
       <div class="mt-10">
         <router-link to="/">
@@ -447,16 +443,16 @@ export default {
       mcgonagallWand: require("@/assets/images/Interactive-Professor-Mcgonagall-Wand.png"),
       snapeWand: require("@/assets/images/Interactive-Professor-Snape-Wand.png"),
 
-      authurWand: require("@/assets/images/Interactive-Arthur-Weasley-Wand.png"),
-      // mollyWand: require("@/assets/images/Interactive-Molly-Weasley-Wand.png"),
-      // fredWand: require("@/assets/images/Interactive-Fred-Weasley-Wand.png"),
-      // georgeWand: require("@/assets/images/Interactive-George-Weasley-Wand.png"),
-      // madEyeWand: require("@/assets/images/Interactive-Mad-Eye-Moody-Wand.png"),
-      // tonksWand: require("@/assets/images/Interactive-Nymphadora-Tonks-Wand.png"),
-      // nevilleWand: require("@/assets/images/Interactive-Neville-Longbottom-Wand.png"),
-      // dracoWand: require("@/assets/images/Interactive-Draco-Malfoy-Wand.png"),
-      // narcissaWand: require("@/assets/images/Interactive-Narcissa-Malfoy-Wand.png"),
-      // voldemortWand: require("@/assets/images/Interactive-Voldemort-Wand.png"),
+      arthurWand: require("@/assets/images/Interactive-Arthur-Weasley-Wand.png"),
+      mollyWand: require("@/assets/images/Interactive-Molly-Weasley-Wand.png"),
+      fredWand: require("@/assets/images/Interactive-Fred-Weasley-Wand.png"),
+      georgeWand: require("@/assets/images/Interactive-George-Weasley-Wand.png"),
+      madEyeWand: require("@/assets/images/Interactive-Mad-Eye-Moody-Wand.png"),
+      tonksWand: require("@/assets/images/Interactive-Nymphadora-Tonks-Wand.png"),
+      nevilleWand: require("@/assets/images/Interactive-Neville-Longbottom-Wand.png"),
+      dracoWand: require("@/assets/images/Interactive-Draco-Malfoy-Wand.png"),
+      narcissaWand: require("@/assets/images/Interactive-Narcissa-Malfoy-Wand.png"),
+      voldemortWand: require("@/assets/images/Interactive-Voldemort-Wand.png"),
     };
   },
 };
