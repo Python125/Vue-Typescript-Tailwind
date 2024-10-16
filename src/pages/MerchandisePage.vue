@@ -113,7 +113,7 @@
           </div>
         </div>
 
-        <div
+        <!-- <div
           class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
@@ -187,7 +187,7 @@
               </button>
             </router-link>
           </div>
-        </div>
+        </div> -->
 
         <div
           class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
@@ -284,7 +284,7 @@
           </div>
         </div>
 
-        <div
+        <!-- <div
           class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
@@ -396,7 +396,7 @@
               </button>
             </router-link>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <div class="mt-10">
