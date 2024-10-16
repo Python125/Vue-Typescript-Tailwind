@@ -40,7 +40,11 @@ const routes: Array<RouteRecordRaw> = [
     name: "luna",
     component: () => import("../pages/LunaPage.vue"),
   },
-
+  // {
+  //   path: "",
+  //   name: "",
+  //   component: () => import("../pages/"),
+  // },
   {
     path: "/sirius",
     name: "sirius",

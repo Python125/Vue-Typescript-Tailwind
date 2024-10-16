@@ -115,7 +115,7 @@
 
         <!-- 
         
-      <div
+        <div
           class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
@@ -124,7 +124,7 @@
             class="w-full h-48 object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
-            <router-link to="/luna">
+            <router-link to="/authur">
               <button
                 class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
@@ -143,7 +143,7 @@
             class="w-full h-48 object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
-            <router-link to="/luna">
+            <router-link to="/molly">
               <button
                 class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
@@ -162,7 +162,7 @@
             class="w-full h-48 object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
-            <router-link to="/luna">
+            <router-link to="/fred">
               <button
                 class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
@@ -181,7 +181,7 @@
             class="w-full h-48 object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
-            <router-link to="/luna">
+            <router-link to="/george">
               <button
                 class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
@@ -447,7 +447,7 @@ export default {
       mcgonagallWand: require("@/assets/images/Interactive-Professor-Mcgonagall-Wand.png"),
       snapeWand: require("@/assets/images/Interactive-Professor-Snape-Wand.png"),
 
-      // authurWand: require("@/assets/images/Interactive-Arthur-Weasley-Wand.png"),
+      authurWand: require("@/assets/images/Interactive-Arthur-Weasley-Wand.png"),
       // mollyWand: require("@/assets/images/Interactive-Molly-Weasley-Wand.png"),
       // fredWand: require("@/assets/images/Interactive-Fred-Weasley-Wand.png"),
       // georgeWand: require("@/assets/images/Interactive-George-Weasley-Wand.png"),
