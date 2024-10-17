@@ -45,20 +45,6 @@
     </div>
   </div>
 
-  <footer class="py-6 text-center text-black mt-12">
-    <p>&copy; 2024 Ollivanders</p>
-    <div class="mt-4">
-      <a href="#" class="hover:underline mx-2">About Us</a> |
-      <a href="#" class="hover:underline mx-2">Contact</a> |
-      <a href="#" class="hover:underline mx-2">Terms & Conditions</a>
-    </div>
-    <div class="mt-6">
-      <p>Follow Us:</p>
-      <a href="#" class="hover:underline mx-2">Facebook</a> |
-      <a href="#" class="hover:underline mx-2">Twitter</a> |
-      <a href="#" class="hover:underline mx-2">Instagram</a>
-    </div>
-  </footer>
 </template>
 
 <script>

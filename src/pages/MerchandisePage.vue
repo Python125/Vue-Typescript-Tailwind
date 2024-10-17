@@ -409,20 +409,6 @@
         </router-link>
       </div>
     </section>
-    <footer class="py-6 text-center text-black mt-12">
-      <p>&copy; 2024 Ollivanders. Makers of Fine Wands since 382 B.C.</p>
-      <div class="mt-4">
-        <a href="#" class="hover:underline mx-2">About Us</a> |
-        <a href="#" class="hover:underline mx-2">Contact</a> |
-        <a href="#" class="hover:underline mx-2">Terms & Conditions</a>
-      </div>
-      <div class="mt-6">
-        <p>Follow Us:</p>
-        <a href="#" class="hover:underline mx-2">Facebook</a> |
-        <a href="#" class="hover:underline mx-2">Twitter</a> |
-        <a href="#" class="hover:underline mx-2">Instagram</a>
-      </div>
-    </footer>
   </div>
 </template>
 
@@ -443,16 +429,16 @@ export default {
       mcgonagallWand: require("@/assets/images/Interactive-Professor-Mcgonagall-Wand.png"),
       snapeWand: require("@/assets/images/Interactive-Professor-Snape-Wand.png"),
 
-      arthurWand: require("@/assets/images/Interactive-Arthur-Weasley-Wand.png"),
-      mollyWand: require("@/assets/images/Interactive-Molly-Weasley-Wand.png"),
-      fredWand: require("@/assets/images/Interactive-Fred-Weasley-Wand.png"),
-      georgeWand: require("@/assets/images/Interactive-George-Weasley-Wand.png"),
-      madEyeWand: require("@/assets/images/Interactive-Mad-Eye-Moody-Wand.png"),
-      tonksWand: require("@/assets/images/Interactive-Nymphadora-Tonks-Wand.png"),
-      nevilleWand: require("@/assets/images/Interactive-Neville-Longbottom-Wand.png"),
-      dracoWand: require("@/assets/images/Interactive-Draco-Malfoy-Wand.png"),
-      narcissaWand: require("@/assets/images/Interactive-Narcissa-Malfoy-Wand.png"),
-      voldemortWand: require("@/assets/images/Interactive-Voldemort-Wand.png"),
+      // arthurWand: require("@/assets/images/Interactive-Arthur-Weasley-Wand.png"),
+      // mollyWand: require("@/assets/images/Interactive-Molly-Weasley-Wand.png"),
+      // fredWand: require("@/assets/images/Interactive-Fred-Weasley-Wand.png"),
+      // georgeWand: require("@/assets/images/Interactive-George-Weasley-Wand.png"),
+      // madEyeWand: require("@/assets/images/Interactive-Mad-Eye-Moody-Wand.png"),
+      // tonksWand: require("@/assets/images/Interactive-Nymphadora-Tonks-Wand.png"),
+      // nevilleWand: require("@/assets/images/Interactive-Neville-Longbottom-Wand.png"),
+      // dracoWand: require("@/assets/images/Interactive-Draco-Malfoy-Wand.png"),
+      // narcissaWand: require("@/assets/images/Interactive-Narcissa-Malfoy-Wand.png"),
+      // voldemortWand: require("@/assets/images/Interactive-Voldemort-Wand.png"),
     };
   },
 };
