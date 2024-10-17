@@ -17,18 +17,19 @@
       <div
         class="product-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-20 py-5"
       >
+
         <div
           class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="potterWand"
             alt="Potter"
-            class="w-48 h-48 object-cover rounded-lg mb-4"
+            class="product-image w-48 h-48 object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/potter">
               <button
-                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+                class="product-button mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
                 Harry Potter
               </button>
@@ -91,7 +92,6 @@
               </button>
             </router-link>
           </div>
-          <h3 class="text-xl font-semibold text-white">Hermione Granger</h3>
         </div>
 
         <div
@@ -446,6 +446,22 @@ export default {
 
 <style scoped>
 @media only screen and (max-width: 1920px) {
+.product-card {
+  padding: 1rem;
+  background-color: black;
+  width: 20rem;
+  height: 22.5rem;
+}
 
+.product-image {
+  margin-left: 1.8rem;
+  margin-top: 0.5rem;
+  width: 14rem;
+  height: 14.5rem;
+}
+
+.product-button {
+  text-align: center;
+}
 }
 </style>
