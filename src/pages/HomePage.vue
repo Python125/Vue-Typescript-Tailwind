@@ -11,12 +11,12 @@
         class="product-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 py-5"
       >
         <div
-          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 w-96 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="potterWand"
             alt="Potter"
-            class="product-image object-cover rounded-lg mb-4"
+            class="product-image rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/potter">
@@ -30,12 +30,12 @@
         </div>
 
         <div
-          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 w-96 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="ronWand"
             alt="Ron"
-            class="product-image object-cover rounded-lg mb-4"
+            class="product-image rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/ron">
@@ -49,12 +49,12 @@
         </div>
 
         <div
-          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 w-96 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="hermioneWand"
             alt="Hermione"
-            class="product-image object-cover rounded-lg mb-4"
+            class="product-image rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/granger">
@@ -114,6 +114,7 @@ export default /* class HomeView extends Vue */ {
     width: 225px;
     object-fit: cover;
     border-radius: 0.5rem;
+    margin-left: 1.65rem;
     margin-bottom: 1rem;
   }
 
