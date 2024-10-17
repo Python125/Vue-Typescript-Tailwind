@@ -14,17 +14,14 @@
       <h2 class="text-3xl font-semibold text-custom-lightblue mb-6">
         Wands From Your Favorite Characters
       </h2>
-      <div
-        class="product-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-20 py-5"
-      >
-
+      <div class="product-grid grid lg:grid-cols-5 gap-14 py-5">
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="potterWand"
             alt="Potter"
-            class="product-image w-48 h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/potter">
@@ -38,17 +35,17 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="ginnyWand"
             alt="Ginny"
-            class="w-48 h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/ginny">
               <button
-                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+                class="product-button mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
                 Ginny Weasley
               </button>
@@ -57,17 +54,17 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="ronWand"
             alt="Ron"
-            class="w-48 h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/ron">
               <button
-                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue"
+                class="product-button mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue"
               >
                 Ron Weasley
               </button>
@@ -76,17 +73,17 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="hermioneWand"
             alt="Hermione"
-            class="w-48 h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/granger">
               <button
-                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue"
+                class="product-button mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue"
               >
                 Hermione Granger
               </button>
@@ -95,17 +92,17 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="lunaWand"
             alt="Lovegood"
-            class="w-48 h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/luna">
               <button
-                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+                class="product-button mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
                 Luna Lovegood
               </button>
@@ -113,13 +110,13 @@
           </div>
         </div>
 
-        <!-- <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        <div
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="arthurWand"
             alt="Arthur"
-            class="w-full h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/arthur">
@@ -133,12 +130,12 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="mollyWand"
             alt="Molly"
-            class="w-full h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/molly">
@@ -152,12 +149,12 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="fredWand"
             alt="Fred"
-            class="w-full h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/fred">
@@ -171,12 +168,12 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="georgeWand"
             alt="George"
-            class="w-full h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/george">
@@ -187,20 +184,20 @@
               </button>
             </router-link>
           </div>
-        </div> -->
+        </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="blackWand"
             alt="Sirius"
-            class="w-48 h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/sirius">
               <button
-                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+                class="product-button mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
                 Sirius Black
               </button>
@@ -209,17 +206,17 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="lupinWand"
             alt="Lupin"
-            class="w-48 h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/lupin">
               <button
-                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+                class="product-button mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
                 Professor Lupin
               </button>
@@ -228,17 +225,17 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="dumbledoreWand"
             alt="Dumbledore"
-            class="w-48 h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/dumbledore">
               <button
-                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+                class="product-button mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
                 Professor Dumbledore
               </button>
@@ -247,17 +244,17 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="mcgonagallWand"
             alt="McGonagall"
-            class="w-48 h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/mcgonagall">
               <button
-                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+                class="product-button mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
                 Professor McGonagall
               </button>
@@ -266,17 +263,17 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="snapeWand"
             alt="Snape"
-            class="w-48 h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/snape">
               <button
-                class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+                class="product-button mt-5 bg-custom-lightblue text-white text-xl py-2 px-4 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
               >
                 Professor Snape
               </button>
@@ -284,13 +281,13 @@
           </div>
         </div>
 
-        <!-- <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+        <div
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="madEyeWand"
             alt="MadEye"
-            class="w-full h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/madeye">
@@ -304,12 +301,12 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="tonksWand"
             alt="Tonks"
-            class="w-full h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/tonks">
@@ -323,12 +320,12 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="nevilleWand"
             alt="Neville"
-            class="w-full h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/neville">
@@ -342,12 +339,12 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="dracoWand"
             alt="Draco"
-            class="w-full h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/draco">
@@ -361,12 +358,12 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="narcissaWand"
             alt="Narcissa"
-            class="w-full h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/narcissa">
@@ -380,12 +377,12 @@
         </div>
 
         <div
-          class="product-card p-24 border border-custom-lightblue rounded-lg shadow-xl"
+          class="product-card p-20 h-fit border border-custom-lightblue rounded-lg shadow-xl"
         >
           <img
             :src="voldemortWand"
             alt="Voldemort"
-            class="w-full h-48 object-cover rounded-lg mb-4"
+            class="product-image object-cover rounded-lg mb-4"
           />
           <div class="mt-0.5">
             <router-link to="/voldemort">
@@ -396,7 +393,7 @@
               </button>
             </router-link>
           </div>
-        </div> -->
+        </div>
       </div>
 
       <div class="mt-10">
@@ -429,16 +426,16 @@ export default {
       mcgonagallWand: require("@/assets/images/Interactive-Professor-Mcgonagall-Wand.png"),
       snapeWand: require("@/assets/images/Interactive-Professor-Snape-Wand.png"),
 
-      // arthurWand: require("@/assets/images/Interactive-Arthur-Weasley-Wand.png"),
-      // mollyWand: require("@/assets/images/Interactive-Molly-Weasley-Wand.png"),
-      // fredWand: require("@/assets/images/Interactive-Fred-Weasley-Wand.png"),
-      // georgeWand: require("@/assets/images/Interactive-George-Weasley-Wand.png"),
-      // madEyeWand: require("@/assets/images/Interactive-Mad-Eye-Moody-Wand.png"),
-      // tonksWand: require("@/assets/images/Interactive-Nymphadora-Tonks-Wand.png"),
-      // nevilleWand: require("@/assets/images/Interactive-Neville-Longbottom-Wand.png"),
-      // dracoWand: require("@/assets/images/Interactive-Draco-Malfoy-Wand.png"),
-      // narcissaWand: require("@/assets/images/Interactive-Narcissa-Malfoy-Wand.png"),
-      // voldemortWand: require("@/assets/images/Interactive-Voldemort-Wand.png"),
+      arthurWand: require("@/assets/images/Interactive-Arthur-Weasley-Wand.png"),
+      mollyWand: require("@/assets/images/Interactive-Molly-Weasley-Wand.png"),
+      fredWand: require("@/assets/images/Interactive-Fred-Weasley-Wand.png"),
+      georgeWand: require("@/assets/images/Interactive-George-Weasley-Wand.png"),
+      madEyeWand: require("@/assets/images/Interactive-Mad-Eye-Moody-Wand.png"),
+      tonksWand: require("@/assets/images/Interactive-Nymphadora-Tonks-Wand.png"),
+      nevilleWand: require("@/assets/images/Interactive-Neville-Longbottom-Wand.png"),
+      dracoWand: require("@/assets/images/Interactive-Draco-Malfoy-Wand.png"),
+      narcissaWand: require("@/assets/images/Interactive-Narcissa-Malfoy-Wand.png"),
+      voldemortWand: require("@/assets/images/Interactive-Voldemort-Wand.png"),
     };
   },
 };
@@ -446,22 +443,23 @@ export default {
 
 <style scoped>
 @media only screen and (max-width: 1920px) {
-.product-card {
-  padding: 1rem;
-  background-color: black;
-  width: 20rem;
-  height: 22.5rem;
-}
+  .product-card {
+    padding: 1rem;
+    background-color: black;
+    width: 20rem;
+    height: 22.5rem;
+  }
 
-.product-image {
-  margin-left: 1.8rem;
-  margin-top: 0.5rem;
-  width: 14rem;
-  height: 14.5rem;
-}
+  .product-image {
+    margin-left: 1.8rem;
+    margin-top: 0.5rem;
+    width: 14rem;
+    height: 14.5rem;
+  }
 
-.product-button {
-  text-align: center;
-}
+  .product-button {
+    margin-top: 16px;
+    margin-right: 4px;
+  }
 }
 </style>
