@@ -57,18 +57,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* Hide the spin buttons for Chrome, Safari, and Edge */
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Hide the spin buttons for Firefox */
-input[type="number"] {
-  /* -moz-appearance: textfield; */ /* COME BACK TO THIS LINE LATER ON */
-  border: 2px solid black;
-}
-</style>
