@@ -444,22 +444,28 @@ export default {
 <style scoped>
 @media only screen and (max-width: 1920px) {
   .product-card {
-    padding: 1rem;
-    background-color: black;
-    width: 20rem;
-    height: 22.5rem;
+    padding: 3rem;
+    height: fit-content;
+    border: 1px solid #0573ee;
+    border-radius: 0.5rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
   .product-image {
-    margin-left: 1.8rem;
-    margin-top: 0.5rem;
-    width: 14rem;
-    height: 14.5rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
   }
 
   .product-button {
-    margin-top: 16px;
-    margin-right: 4px;
+    margin-top: 1.25rem;
+    background-color: #0573ee;
+    color: #ffffff;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, box-shadow 0.3s;
   }
 }
 </style>
