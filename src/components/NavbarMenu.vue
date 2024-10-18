@@ -53,7 +53,7 @@
         <a
           href="#"
           class="text-base align-middle ml-7 mt-1"
-          @click.prevent="toggleMegaMenu"
+          @click.prevent="toggleMegaMenu('superNintendoWorld')"
         >
           <span class="ml-1 font-medium">SUPER NINTENDO WORLD™</span>
           <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -72,7 +72,7 @@
           </div>
         </a>
         <div
-          v-if="isMegaMenuVisible"
+          v-if="activeMenu === 'superNintendoWorld'"
           class="absolute left-0 top-full bg-blue-900 text-white p-6 shadow-lg"
         >
           <div class="mega-menu grid grid-cols-4 gap-8">
@@ -149,7 +149,7 @@
         <a
           href="#"
           class="text-base align-middle ml-8 mt-1"
-          @click.prevent="toggleMegaMenu"
+          @click.prevent="toggleMegaMenu('universalStudios')"
         >
           <span class="ml-1 font-medium">Universal Studios</span>
           <div class="arrowBtn">
@@ -166,7 +166,7 @@
             </svg>
           </div>
         </a>
-        <div v-if="isMegaMenuVisible" class="absolute left-0 top-full bg-blue-900 text-white p-6 shadow-lg">
+        <div v-if="activeMenu === 'universalStudios'" class="absolute left-0 top-full bg-blue-900 text-white p-6 shadow-lg">
           
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
@@ -515,15 +515,20 @@ export default {
   props: ["pages", "activePage"],
   data() {
     return {
-      isMegaMenuVisible: false,
+      activeMenu: null, // Store the active mega menu (null means no menu is open)
     };
   },
   methods: {
     handleNavLinkClick(index) {
       this.$emit("page-change", index); // Emit means to trigger an event
     },
-    toggleMegaMenu() {
-      this.isMegaMenuVisible = !this.isMegaMenuVisible;
+    toggleMegaMenu(menuName) {
+      // If the clicked menu is already open, close it; otherwise, open the clicked menu
+      if (this.activeMenu === menuName) {
+        this.activeMenu = null; // Close the menu if it's already open
+      } else {
+        this.activeMenu = menuName; // Set the clicked menu as active
+      }
     },
   },
 };
