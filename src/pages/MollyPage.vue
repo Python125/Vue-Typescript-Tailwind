@@ -5,7 +5,7 @@
       alt="Ollivanders Store"
       class="w-2/3 sm:w-1/2 lg:w-1/3 mx-auto py-6"
     />
-    <div class="flex ml-48rem">
+    <div class="molly-info flex ml-48rem">
       <div>
         <img :src="mollyWand" alt="molly" class="w-96" />
         <div class="mt-0.5"></div>
@@ -59,16 +59,9 @@ export default {
 </script>
 
 <style scoped>
-/* Hide the spin buttons for Chrome, Safari, and Edge */
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Hide the spin buttons for Firefox */
-input[type="number"] {
-  /* -moz-appearance: textfield; */ /* COME BACK TO THIS LINE LATER ON */
-  border: 2px solid black;
+@media only screen and (max-width: 1920px) {
+  .molly-info {
+    margin-left: 23.5%;
+  }
 }
 </style>

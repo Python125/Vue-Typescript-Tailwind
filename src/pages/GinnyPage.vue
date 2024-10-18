@@ -5,7 +5,7 @@
       alt="Ollivanders Store"
       class="w-2/3 sm:w-1/2 lg:w-1/3 mx-auto py-6"
     />
-    <div class="flex ml-48rem">
+    <div class="ginny-info flex ml-48rem">
       <div>
         <img :src="ginnyWand" alt="Ginny" class="w-96" />
         <div class="mt-0.5"></div>
@@ -45,7 +45,6 @@
       </div>
     </div>
   </div>
-
 </template>
 
 <script>
@@ -59,3 +58,11 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+@media only screen and (max-width: 1920px) {
+  .ginny-info {
+    margin-left: 23.3%;
+  }
+}
+</style>
