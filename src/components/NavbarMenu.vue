@@ -5,11 +5,11 @@
         <img
           src="@/assets/universal-orlando-logo.png"
           alt="Universal Orlando Logo"
-          class="universal-logo ml-7 mt-2"
+          class="w-32 ml-7 mt-2"
         />
       </a>
       <div class="ml-15 mr-5">
-        <ul class="navbar-links">
+        <ul class="flex">
           <li class="text-base mb-4 mr-2">
             Need help?<br />Call
             <a
@@ -32,22 +32,6 @@
               />
             </button>
           </li>
-          <!-- <button class="block md:hidden text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                class="w-8 h-8"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16m-7 6h7"
-                />
-              </svg>
-            </button> -->
         </ul>
       </div>
       <!-- <li v-for="(page, index) in pages" :key="index">
@@ -61,29 +45,107 @@
           >
             {{ page.link.text }}
           </router-link>
-        </li> -->
+      </li> -->
     </div>
 
     <div class="hidden md:flex text-2xl flex-wrap mt-4 space-x-6">
-      <a href="" class="departmentBtn">
-        <span class="ml-1 font-medium">SUPER NINTENDO WORLD™</span>
-        <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-        <div class="arrowBtn">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="12"
-            width="12"
-            viewBox="0 0 512 512"
-          >
-            <path
-              fill="#ffffff"
-              d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
-            />
-          </svg>
-        </div>
-      </a>
+      <div class="relative">
+        <a
+          href="#"
+          class="text-base align-middle ml-8 mt-1"
+          @click.prevent="toggleMegaMenu"
+        >
+          <span class="ml-1 font-medium">SUPER NINTENDO WORLD™</span>
+          <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+          <div class="arrowBtn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="12"
+              width="12"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="#ffffff"
+                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+              />
+            </svg>
+          </div>
+        </a>
+        <div
+          v-if="isMegaMenuVisible"
+          class="absolute left-0 top-full bg-blue-900 text-white p-6 shadow-lg"
+        >
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">ACCESSORIES</h3>
+              <ul>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Bags</a>
+                </li>
+              </ul>
+            </div>
 
-      <a href="" class="departmentBtn">
+            <div>
+              <h3 class="text-lg font-bold">APPAREL</h3>
+              <ul>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Adult T-Shirts</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Youth T-Shirts</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">HEADWEAR</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold mt-5">HOME DECORATIONS</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold mt-5">SOUVENIRS</h3>
+              <ul>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Drinkware</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Key Chains</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Lanyards</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Pins</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold mt-5">TOYS</h3>
+              <ul>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Plush</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="text-base align-middle ml-8 mt-1">
         <span class="ml-1 font-medium">Universal Studios</span>
         <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
         <div class="arrowBtn">
@@ -101,7 +163,7 @@
         </div>
       </a>
 
-      <a href="" class="departmentBtn">
+      <a href="" class="text-base align-middle ml-8 mt-1">
         <span class="ml-1 font-medium">Harry Potter</span>
         <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
         <div class="arrowBtn">
@@ -119,7 +181,7 @@
         </div>
       </a>
 
-      <a href="" class="departmentBtn">
+      <a href="" class="text-base align-middle ml-8 mt-1">
         <span class="ml-1 font-medium">Shop by Brands</span>
         <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
         <div class="arrowBtn">
@@ -137,7 +199,7 @@
         </div>
       </a>
 
-      <a href="" class="departmentBtn">
+      <a href="" class="text-base align-middle ml-8 mt-1">
         <span class="ml-1 font-medium">Sale</span>
         <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
         <div class="arrowBtn">
@@ -155,7 +217,7 @@
         </div>
       </a>
 
-      <a href="" class="departmentBtn">
+      <a href="" class="text-base align-middle ml-8 mt-1">
         <span class="ml-1 font-medium">Shop All Merchandise</span>
         <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
         <div class="arrowBtn">
@@ -173,7 +235,7 @@
         </div>
       </a>
 
-      <a href="" class="departmentBtn">
+      <a href="" class="text-base align-middle ml-8 mt-1">
         <span class="ml-1 font-medium">Top Sellers</span>
         <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
         <div class="arrowBtn">
@@ -191,7 +253,7 @@
         </div>
       </a>
 
-      <a href="" class="departmentBtn">
+      <a href="" class="text-base align-middle ml-8 mt-1">
         <span class="ml-1 medium font-medium">New Arrivals</span>
         <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
         <div class="arrowBtn">
@@ -209,7 +271,7 @@
         </div>
       </a>
 
-      <a href="" class="departmentBtn">
+      <a href="" class="text-base align-middle ml-8 mt-1">
         <span class="ml-1 font-medium">All Departments</span>
         <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
         <div class="arrowBtn">
@@ -226,10 +288,11 @@
           </svg>
         </div>
       </a>
+
       <div class="search-container text-black">
         <form
           action=""
-          class="searchBox flex items-center border border-gray-800 rounded overflow-hidden mb-1"
+          class="searchBox flex items-center border border-custom-grey rounded overflow-hidden mb-1 -p-1"
         >
           <input
             type="text"
@@ -259,11 +322,18 @@
 
 <script>
 export default {
-  components: {},
   props: ["pages", "activePage"],
+  data() {
+    return {
+      isMegaMenuVisible: false,
+    };
+  },
   methods: {
     handleNavLinkClick(index) {
-      this.$emit("page-change", index);
+      this.$emit("page-change", index); // Emit means to trigger an event
+    },
+    toggleMegaMenu() {
+      this.isMegaMenuVisible = !this.isMegaMenuVisible;
     },
   },
 };
@@ -272,14 +342,6 @@ export default {
 <style scoped>
 .navbar {
   background: linear-gradient(#005ec7, #0573ee);
-}
-
-.universal-logo {
-  width: 125px;
-}
-
-.navbar-links {
-  display: flex;
 }
 
 .park-border {
@@ -298,27 +360,23 @@ export default {
   margin-right: -5px;
 }
 
-.departmentBtn {
-  vertical-align: middle;
-  font-size: 12pt;
-  margin-left: 1.5%;
-}
-
 .arrowBtn {
   margin-top: 1%;
   margin-left: 98%;
 }
 
-.searchBox {
-  margin-left: 717pt;
-  padding-top: -1%;
-  font-size: 12pt;
-  color: rgb(54, 53, 53);
+.mega-menu {
+  width: 900px;
 }
 
-@media only screen and (max-width: 1920px) {
+.searchBox {
+  margin-left: 58.5rem;
+  font-size: 12pt;
+}
+
+/* @media only screen and (max-width: 1920px) {
   .searchBox {
     margin-left: 327px;
   }
-}
+} */
 </style>

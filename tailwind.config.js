@@ -11,6 +11,7 @@ module.exports = {
         "custom-darkblue": "#005ec7",
         "custom-lightblue": "#0573ee",
         "custom-gray": "#4d4d4d",
+        "custom-grey": "rgb(54, 53, 53)",
       },
       spacing: {
         /* --- 3840 x 2160 --- */
