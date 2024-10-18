@@ -14,7 +14,7 @@
         <h1 class="text-4xl text-center">Interactive George Weasley™ Wand</h1>
       </div>
 
-      <div class="mt-16 -ml-34.5rem">
+      <div class="mt-16 -ml-35.2rem">
         <div>
           <div class="text-custom-lightblue text-2xl font-bold">$65.00</div>
         </div>

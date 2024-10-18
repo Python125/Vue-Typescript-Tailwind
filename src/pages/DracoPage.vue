@@ -14,7 +14,7 @@
         <h1 class="text-4xl text-center">Interactive Draco Malfoy™ Wand</h1>
       </div>
 
-      <div class="mt-16 -ml-34.5rem">
+      <div class="mt-16 -ml-32.5rem">
         <div>
           <div class="text-custom-lightblue text-2xl font-bold">$65.00</div>
         </div>
