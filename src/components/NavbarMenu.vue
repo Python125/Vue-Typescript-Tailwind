@@ -686,7 +686,6 @@
         </div>
       </div>
 
-
       <div class="relative">
         <a
           href="#"
@@ -720,7 +719,6 @@
         </div>
       </div>
 
-<!-- 
       <div class="relative">
         <a
           href="#"
@@ -748,140 +746,160 @@
         >
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">BACK TO THE FUTURE</h3>
+              <h3 class="text-lg font-bold">SALE</h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">JAWS</h3>
+              <h3 class="text-lg font-bold">PARK ESSENTIALS</h3>
+              <ul>
+                <li><a href="#" class="text-base hover:text-gray-300">Bags</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Travel</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Headwear</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Beach Towels</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Drinkware</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Lanyards</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Hogwarts™ Essentials</a></li>
+              </ul>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">THE TRIBUTE STORE</h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold">UNIVRS</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">SUPER NINTENDO WORLD™</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">BETTY BOOP</h3>
+              <h3 class="text-lg font-bold">LOUNGEFLY</h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">DARK UNIVERSE</h3>
+              <h3 class="text-lg font-bold mt-5">ACCESSORIES</h3>
+              <ul>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Bags</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Gloves</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Jewelry</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Neckwear</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Patches</a>
+                </li>
+                <li><a href="#" class="text-base hover:text-gray-300">Pets</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Slippers</a></li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Socks</a>
+                </li>
+                <li><a href="#" class="text-base hover:text-gray-300">Travel</a></li>
+              </ul>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">DREAMWORKS LAND</h3>
+              <h3 class="text-lg font-bold mt-5">APPAREL</h3>
+              <ul>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Adult Fashion Tops</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Adult Loungewear</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Adult Outerwear</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Adult Shorts</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Adult T-Shirts</a
+                  >
+                </li>
+                <li><a href="#" class="text-base hover:text-gray-300">Infant</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Shorts</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Toddler</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Youth Fashion Tops</a></li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Youth Outerwear</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Youth T-Shirts</a
+                  >
+                </li>
+              </ul>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">EPIC UNIVERSE</h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold">ET</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">FANTASTIC BEASTS</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">FAST & FURIOUS</h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold">HALLOWEEN HORROR NIGHTS</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">HARRY POTTER</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">HELLO KITTY</h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold"></h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold"></h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold"></h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold">HOW TO TRAIN YOUR DRAGON</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">JURASSIC WORLD</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">MINION LAND</h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold">SECRET LIFE OF PETS</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">REIGN OF KONG</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">THE BOURNE STUNTACULAR</h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold">THE TONIGHT SHOP</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">TRANSFORMERS</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">UNIVERSAL STUDIOS</h3>
+              <h3 class="text-lg font-bold">COLLECTIBLES</h3>
+              <ul>
+                <li><a href="#" class="text-base hover:text-gray-300">Interactive Wands</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Replicas</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Wands</a></li>
+              </ul>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">VOLCANO BAY</h3>
+              <h3 class="text-lg font-bold">COSTUMES</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">HEADWEAR</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">HOLIDAY</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">HOME DECORATIONS</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">SOUVENIRS</h3>
+              <ul>
+                <li><a href="#" class="text-base hover:text-gray-300">Bags</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Beach Towels</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Drinkware</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Key Chains</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Lanyards</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Magnets</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Pins</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Stationery</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">TOYS</h3>
+              <ul>
+                <li><a href="#" class="text-base hover:text-gray-300">Plush</a></li>
+                <li><a href="#" class="text-base hover:text-gray-300">Toys</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">TREATS</h3>
             </div>
           </div>
         </div>
       </div>
--->
 
-<!-- 
       <div class="relative">
         <a
           href="#"
@@ -914,9 +932,7 @@
           </div>
         </div>
       </div>
--->
-
-<!-- 
+ 
       <div class="relative">
         <a
           href="#"
@@ -949,11 +965,46 @@
           </div>
         </div>
       </div>
+
+<!--
+
+      <div class="relative">
+        <a
+          href="#"
+          class="text-base align-middle ml-8 mt-1"
+          @click.prevent="toggleMegaMenu('newArrivals')"
+        >
+          <span class="ml-1 font-medium">New Arrivals</span>
+          <div class="arrowBtn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="12"
+              width="12"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="#ffffff"
+                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+              />
+            </svg>
+          </div>
+        </a>
+        <div
+          v-if="activeMenu === 'newArrivals'"
+          class="absolute left-0 top-full bg-blue-900 text-white p-6 shadow-lg"
+        >
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">Top Sellers</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
 -->
 
       <a href="" class="text-base align-middle ml-8 mt-1">
         <span class="ml-1 font-medium">All Departments</span>
-        <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
         <div class="arrowBtn">
           <svg
             xmlns="http://www.w3.org/2000/svg"
