@@ -527,7 +527,6 @@
         </div>
       </div>
 
-<!-- 
       <div class="relative">
         <a
           href="#"
@@ -549,25 +548,144 @@
             </svg>
           </div>
         </a>
-        <div v-if="activeMenu === 'shopByBrands'" class="absolute left-0 top-full bg-blue-900 text-white p-6 shadow-lg">
-          
+        <div
+          v-if="activeMenu === 'shopByBrands'"
+          class="absolute left-0 top-full bg-blue-900 text-white p-6 shadow-lg"
+        >
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">GRYFFINDOR</h3>
+              <h3 class="text-lg font-bold">BACK TO THE FUTURE</h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">SLYTHERIN</h3>
+              <h3 class="text-lg font-bold">JAWS</h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">RAVENCLAW</h3>
+              <h3 class="text-lg font-bold">THE TRIBUTE STORE</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">UNIVRS</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">SUPER NINTENDO WORLD™</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">BETTY BOOP</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">DARK UNIVERSE</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">DREAMWORKS LAND</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">EPIC UNIVERSE</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">ET</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">FANTASTIC BEASTS</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">FAST & FURIOUS</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">HALLOWEEN HORROR NIGHTS</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">HARRY POTTER</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">HELLO KITTY</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold"></h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold"></h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold"></h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">HOW TO TRAIN YOUR DRAGON</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">JURASSIC WORLD</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">MINION LAND</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">SECRET LIFE OF PETS</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">REIGN OF KONG</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">THE BOURNE STUNTACULAR</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">THE TONIGHT SHOP</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">TRANSFORMERS</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">UNIVERSAL STUDIOS</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">VOLCANO BAY</h3>
             </div>
           </div>
         </div>
       </div>
 
--->
 
       <div class="relative">
         <a
@@ -602,76 +720,236 @@
         </div>
       </div>
 
-      <!-- <a href="" class="text-base align-middle ml-8 mt-1">
-        <span class="ml-1 font-medium">Shop by Brands</span>
-        <div class="arrowBtn">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="12"
-            width="12"
-            viewBox="0 0 512 512"
-          >
-            <path
-              fill="#ffffff"
-              d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
-            />
-          </svg>
-        </div>
-      </a> -->
+<!-- 
+      <div class="relative">
+        <a
+          href="#"
+          class="text-base align-middle ml-8 mt-1"
+          @click.prevent="toggleMegaMenu('shopAllMerchandise')"
+        >
+          <span class="ml-1 font-medium">Shop All Merchandise</span>
+          <div class="arrowBtn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="12"
+              width="12"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="#ffffff"
+                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+              />
+            </svg>
+          </div>
+        </a>
+        <div
+          v-if="activeMenu === 'shopAllMerchandise'"
+          class="absolute left-0 top-full bg-blue-900 text-white p-6 shadow-lg"
+        >
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">BACK TO THE FUTURE</h3>
+            </div>
 
-      <a href="" class="text-base align-middle ml-8 mt-1">
-        <span class="ml-1 font-medium">Shop All Merchandise</span>
-        <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-        <div class="arrowBtn">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="12"
-            width="12"
-            viewBox="0 0 512 512"
-          >
-            <path
-              fill="#ffffff"
-              d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
-            />
-          </svg>
-        </div>
-      </a>
+            <div>
+              <h3 class="text-lg font-bold">JAWS</h3>
+            </div>
 
-      <a href="" class="text-base align-middle ml-8 mt-1">
-        <span class="ml-1 font-medium">Top Sellers</span>
-        <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-        <div class="arrowBtn">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="12"
-            width="12"
-            viewBox="0 0 512 512"
-          >
-            <path
-              fill="#ffffff"
-              d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
-            />
-          </svg>
-        </div>
-      </a>
+            <div>
+              <h3 class="text-lg font-bold">THE TRIBUTE STORE</h3>
+            </div>
+          </div>
 
-      <a href="" class="text-base align-middle ml-8 mt-1">
-        <span class="ml-1 medium font-medium">New Arrivals</span>
-        <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-        <div class="arrowBtn">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="12"
-            width="12"
-            viewBox="0 0 512 512"
-          >
-            <path
-              fill="#ffffff"
-              d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
-            />
-          </svg>
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">UNIVRS</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">SUPER NINTENDO WORLD™</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">BETTY BOOP</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">DARK UNIVERSE</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">DREAMWORKS LAND</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">EPIC UNIVERSE</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">ET</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">FANTASTIC BEASTS</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">FAST & FURIOUS</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">HALLOWEEN HORROR NIGHTS</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">HARRY POTTER</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">HELLO KITTY</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold"></h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold"></h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold"></h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">HOW TO TRAIN YOUR DRAGON</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">JURASSIC WORLD</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">MINION LAND</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">SECRET LIFE OF PETS</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">REIGN OF KONG</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">THE BOURNE STUNTACULAR</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">THE TONIGHT SHOP</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">TRANSFORMERS</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold">UNIVERSAL STUDIOS</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">VOLCANO BAY</h3>
+            </div>
+          </div>
         </div>
-      </a>
+      </div>
+-->
+
+<!-- 
+      <div class="relative">
+        <a
+          href="#"
+          class="text-base align-middle ml-8 mt-1"
+          @click.prevent="toggleMegaMenu('topSellers')"
+        >
+          <span class="ml-1 font-medium">Top Sellers</span>
+          <div class="arrowBtn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="12"
+              width="12"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="#ffffff"
+                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+              />
+            </svg>
+          </div>
+        </a>
+        <div
+          v-if="activeMenu === 'topSellers'"
+          class="absolute left-0 top-full bg-blue-900 text-white p-6 shadow-lg"
+        >
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">Top Sellers</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+-->
+
+<!-- 
+      <div class="relative">
+        <a
+          href="#"
+          class="text-base align-middle ml-8 mt-1"
+          @click.prevent="toggleMegaMenu('newArrivals')"
+        >
+          <span class="ml-1 font-medium">New Arrivals</span>
+          <div class="arrowBtn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="12"
+              width="12"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="#ffffff"
+                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+              />
+            </svg>
+          </div>
+        </a>
+        <div
+          v-if="activeMenu === 'newArrivals'"
+          class="absolute left-0 top-full bg-blue-900 text-white p-6 shadow-lg"
+        >
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold">Top Sellers</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+-->
 
       <a href="" class="text-base align-middle ml-8 mt-1">
         <span class="ml-1 font-medium">All Departments</span>
