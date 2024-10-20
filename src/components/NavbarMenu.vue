@@ -49,7 +49,7 @@
     </div>
 
     <div class="hidden md:flex text-2xl flex-wrap mt-4">
-      <div class="relative">
+      <div class="relative menu">
         <a
           href="#"
           class="text-base align-middle ml-7 mt-1"
@@ -145,7 +145,7 @@
         </div>
       </div>
 
-      <div class="relative">
+      <div class="relative menu">
         <a
           href="#"
           class="text-base align-middle ml-8 mt-1"
@@ -303,7 +303,7 @@
         </div>
       </div>
 
-      <div class="relative">
+      <div class="relative menu">
         <a
           href="#"
           class="text-base align-middle ml-8 mt-1"
@@ -527,7 +527,7 @@
         </div>
       </div>
 
-      <div class="relative">
+      <div class="relative menu">
         <a
           href="#"
           class="text-base align-middle ml-8 mt-1"
@@ -568,125 +568,111 @@
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">UNIVRS</h3>
+              <h3 class="text-lg font-bold mt-5">UNIVRS</h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">SUPER NINTENDO WORLD™</h3>
+              <h3 class="text-lg font-bold mt-5">SUPER NINTENDO WORLD™</h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">BETTY BOOP</h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold">DARK UNIVERSE</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">DREAMWORKS LAND</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">EPIC UNIVERSE</h3>
+              <h3 class="text-lg font-bold mt-5">BETTY BOOP</h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">ET</h3>
+              <h3 class="text-lg font-bold mt-5">DARK UNIVERSE</h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">FANTASTIC BEASTS</h3>
+              <h3 class="text-lg font-bold mt-5">DREAMWORKS LAND</h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">FAST & FURIOUS</h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold">HALLOWEEN HORROR NIGHTS</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">HARRY POTTER</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">HELLO KITTY</h3>
+              <h3 class="text-lg font-bold mt-5">EPIC UNIVERSE</h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold"></h3>
+              <h3 class="text-lg font-bold mt-5">ET</h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold"></h3>
+              <h3 class="text-lg font-bold mt-5">FANTASTIC BEASTS</h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold"></h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold">HOW TO TRAIN YOUR DRAGON</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">JURASSIC WORLD</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">MINION LAND</h3>
+              <h3 class="text-lg font-bold mt-5">FAST & FURIOUS</h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">SECRET LIFE OF PETS</h3>
+              <h3 class="text-lg font-bold mt-5">HALLOWEEN HORROR NIGHTS</h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">REIGN OF KONG</h3>
+              <h3 class="text-lg font-bold mt-5">HARRY POTTER</h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">THE BOURNE STUNTACULAR</h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold">THE TONIGHT SHOP</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">TRANSFORMERS</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold">UNIVERSAL STUDIOS</h3>
+              <h3 class="text-lg font-bold mt-5">HELLO KITTY</h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">VOLCANO BAY</h3>
+              <h3 class="text-lg font-bold mt-5">HOW TO TRAIN YOUR DRAGON</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold mt-5">JURASSIC WORLD</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold mt-5">MINION LAND</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold mt-5">SECRET LIFE OF PETS</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold mt-5">REIGN OF KONG</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold mt-5">THE BOURNE STUNTACULAR</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold mt-5">THE TONIGHT SHOP</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold mt-5">TRANSFORMERS</h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold mt-5">UNIVERSAL STUDIOS</h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold mt-5">VOLCANO BAY</h3>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="relative">
+      <div class="relative menu">
         <a
           href="#"
           class="text-base align-middle ml-8 mt-1"
@@ -719,7 +705,7 @@
         </div>
       </div>
 
-      <div class="relative">
+      <div class="relative menu">
         <a
           href="#"
           class="text-base align-middle ml-8 mt-1"
@@ -841,7 +827,7 @@
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">COLLECTIBLES</h3>
+              <h3 class="text-lg font-bold mt-5">COLLECTIBLES</h3>
               <ul>
                 <li><a href="#" class="text-base hover:text-gray-300">Interactive Wands</a></li>
                 <li><a href="#" class="text-base hover:text-gray-300">Replicas</a></li>
@@ -852,25 +838,25 @@
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">COSTUMES</h3>
+              <h3 class="text-lg font-bold mt-5">COSTUMES</h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">HEADWEAR</h3>
+              <h3 class="text-lg font-bold mt-5">HEADWEAR</h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">HOLIDAY</h3>
+              <h3 class="text-lg font-bold mt-5">HOLIDAY</h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">HOME DECORATIONS</h3>
+              <h3 class="text-lg font-bold mt-5">HOME DECORATIONS</h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">SOUVENIRS</h3>
+              <h3 class="text-lg font-bold mt-5">SOUVENIRS</h3>
               <ul>
                 <li><a href="#" class="text-base hover:text-gray-300">Bags</a></li>
                 <li><a href="#" class="text-base hover:text-gray-300">Beach Towels</a></li>
@@ -884,7 +870,7 @@
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">TOYS</h3>
+              <h3 class="text-lg font-bold mt-5">TOYS</h3>
               <ul>
                 <li><a href="#" class="text-base hover:text-gray-300">Plush</a></li>
                 <li><a href="#" class="text-base hover:text-gray-300">Toys</a></li>
@@ -894,13 +880,13 @@
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">TREATS</h3>
+              <h3 class="text-lg font-bold mt-5">TREATS</h3>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="relative">
+      <div class="relative menu">
         <a
           href="#"
           class="text-base align-middle ml-8 mt-1"
@@ -933,7 +919,7 @@
         </div>
       </div>
  
-      <div class="relative">
+      <div class="relative menu">
         <a
           href="#"
           class="text-base align-middle ml-8 mt-1"
@@ -960,7 +946,7 @@
         >
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">Top Sellers</h3>
+              <h3 class="text-lg font-bold">New Arrivals</h3>
             </div>
           </div>
         </div>
@@ -968,7 +954,7 @@
 
 <!--
 
-      <div class="relative">
+      <div class="relative menu">
         <a
           href="#"
           class="text-base align-middle ml-8 mt-1"
@@ -1099,6 +1085,10 @@ export default {
 .arrowBtn {
   margin-top: -2%;
   margin-left: 98.5%;
+}
+
+.menu {
+  z-index: 1;
 }
 
 .mega-menu {
