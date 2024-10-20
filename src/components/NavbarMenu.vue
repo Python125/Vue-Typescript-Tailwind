@@ -952,47 +952,12 @@
         </div>
       </div>
 
-<!--
-
-      <div class="relative menu">
-        <a
-          href="#"
-          class="text-base align-middle ml-8 mt-1"
-          @click.prevent="toggleMegaMenu('newArrivals')"
-        >
-          <span class="ml-1 font-medium">New Arrivals</span>
+<!-- 
+      <div>
+        <button @click="toggleDropdown" class="">All Departments
           <div class="arrowBtn">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="12"
-              width="12"
-              viewBox="0 0 512 512"
-            >
-              <path
-                fill="#ffffff"
-                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
-              />
-            </svg>
-          </div>
-        </a>
-        <div
-          v-if="activeMenu === 'newArrivals'"
-          class="absolute left-0 top-full bg-blue-900 text-white p-6 shadow-lg"
-        >
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold">Top Sellers</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-
--->
-
-      <a href="" class="text-base align-middle ml-8 mt-1">
-        <span class="ml-1 font-medium">All Departments</span>
-        <div class="arrowBtn">
           <svg
+            class="-mr-1 ml-2 h-5 w-5"
             xmlns="http://www.w3.org/2000/svg"
             height="12"
             width="12"
@@ -1004,7 +969,9 @@
             />
           </svg>
         </div>
-      </a>
+        </button>
+      </div> 
+-->
 
       <div class="search-container text-black">
         <form
