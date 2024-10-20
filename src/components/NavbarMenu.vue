@@ -527,14 +527,14 @@
         </div>
       </div>
 
-      <!-- 
+<!-- 
       <div class="relative">
         <a
           href="#"
           class="text-base align-middle ml-8 mt-1"
           @click.prevent="toggleMegaMenu('shopByBrands')"
         >
-          <span class="ml-1 font-medium">Harry Potter</span>
+          <span class="ml-1 font-medium">Shop by Brands</span>
           <div class="arrowBtn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -562,99 +562,6 @@
 
             <div>
               <h3 class="text-lg font-bold">RAVENCLAW</h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold mt-5">HUFFLEPUFF</h3>
-            </div>
-            
-            <div>
-              <h3 class="text-lg font-bold mt-5">ACCESSORIES</h3>
-              <ul>
-                <li><a href="#" class="text-base hover:text-gray-300">Bags</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Gloves</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Jewelry</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Neckwear</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Patches</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Socks</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Travel</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold mt-5">APPAREL</h3>
-              <ul>
-                <li><a href="#" class="text-base hover:text-gray-300">Adult Fashion Tops</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Adult Loungewear</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Adult Outerwear</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Adult Shorts</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Adult T-Shirts</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Infant</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Youth Outerwear</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Youth T-Shirts</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold mt-5">COLLECTIBLES</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold mt-5">COSTUMES</h3>
-              <ul>
-                <li><a href="#" class="text-base hover:text-gray-300">Costume Accessories</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Costume Props</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Costume Apparel</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Character Wands</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold mt-5">HEADWEAR</h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold mt-5">HOLIDAY</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold mt-5">HOME DECORATIONS</h3>
-              <ul>
-                <li><a href="#" class="text-base hover:text-gray-300">Dinnerware</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold mt-5">SOUVENIRS</h3>
-              <ul>
-                <li><a href="#" class="text-base hover:text-gray-300">Beach Towels</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Drinkware</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Key Chains</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Lanyards</a></li>
-
-                <li><a href="#" class="text-base hover:text-gray-300">Magnets</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Pins</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Stationery</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold mt-5">TOYS</h3>
-              <ul>
-                <li><a href="#" class="text-base hover:text-gray-300">Plush</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Toys</a></li>
-              </ul>
-            </div>
-            <div>
-              <h3 class="text-lg font-bold mt-5">TREATS</h3>
             </div>
           </div>
         </div>
