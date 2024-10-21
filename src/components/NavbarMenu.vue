@@ -738,13 +738,33 @@
             <div>
               <h3 class="text-lg font-bold">PARK ESSENTIALS</h3>
               <ul>
-                <li><a href="#" class="text-base hover:text-gray-300">Bags</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Travel</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Headwear</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Beach Towels</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Drinkware</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Lanyards</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Hogwarts™ Essentials</a></li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Bags</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Travel</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Headwear</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Beach Towels</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Drinkware</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Lanyards</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Hogwarts™ Essentials</a
+                  >
+                </li>
               </ul>
             </div>
 
@@ -772,12 +792,18 @@
                 <li>
                   <a href="#" class="text-base hover:text-gray-300">Patches</a>
                 </li>
-                <li><a href="#" class="text-base hover:text-gray-300">Pets</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Slippers</a></li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Pets</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Slippers</a>
+                </li>
                 <li>
                   <a href="#" class="text-base hover:text-gray-300">Socks</a>
                 </li>
-                <li><a href="#" class="text-base hover:text-gray-300">Travel</a></li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Travel</a>
+                </li>
               </ul>
             </div>
 
@@ -809,10 +835,20 @@
                     >Adult T-Shirts</a
                   >
                 </li>
-                <li><a href="#" class="text-base hover:text-gray-300">Infant</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Shorts</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Toddler</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Youth Fashion Tops</a></li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Infant</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Shorts</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Toddler</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Youth Fashion Tops</a
+                  >
+                </li>
                 <li>
                   <a href="#" class="text-base hover:text-gray-300"
                     >Youth Outerwear</a
@@ -829,9 +865,17 @@
             <div>
               <h3 class="text-lg font-bold mt-5">COLLECTIBLES</h3>
               <ul>
-                <li><a href="#" class="text-base hover:text-gray-300">Interactive Wands</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Replicas</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Wands</a></li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Interactive Wands</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Replicas</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Wands</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -858,22 +902,50 @@
             <div>
               <h3 class="text-lg font-bold mt-5">SOUVENIRS</h3>
               <ul>
-                <li><a href="#" class="text-base hover:text-gray-300">Bags</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Beach Towels</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Drinkware</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Key Chains</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Lanyards</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Magnets</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Pins</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Stationery</a></li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Bags</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Beach Towels</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Drinkware</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Key Chains</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Lanyards</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Magnets</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Pins</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300"
+                    >Stationery</a
+                  >
+                </li>
               </ul>
             </div>
 
             <div>
               <h3 class="text-lg font-bold mt-5">TOYS</h3>
               <ul>
-                <li><a href="#" class="text-base hover:text-gray-300">Plush</a></li>
-                <li><a href="#" class="text-base hover:text-gray-300">Toys</a></li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Plush</a>
+                </li>
+                <li>
+                  <a href="#" class="text-base hover:text-gray-300">Toys</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -918,7 +990,7 @@
           </div>
         </div>
       </div>
- 
+
       <div class="relative menu">
         <a
           href="#"
@@ -952,26 +1024,50 @@
         </div>
       </div>
 
-<!-- 
-      <div>
-        <button @click="toggleDropdown" class="">All Departments
-          <div class="arrowBtn">
-          <svg
-            class="-mr-1 ml-2 h-5 w-5"
-            xmlns="http://www.w3.org/2000/svg"
-            height="12"
-            width="12"
-            viewBox="0 0 512 512"
-          >
-            <path
-              fill="#ffffff"
-              d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
-            />
-          </svg>
-        </div>
+      <div class="relative dropdown">
+        <button @click="isOpen = !isOpen" class="text-white">
+          All Departments
+          <div class="ml-2">
+            <svg
+              class="h-5 w-5"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="currentColor"
+                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+              />
+            </svg>
+          </div>
         </button>
-      </div> 
--->
+        <ul
+          v-if="isOpen"
+          class="absolute mt-2 w-56 bg-blue-900 text-white rounded-md shadow-lg"
+        >
+          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">
+            SUPER NINTENDO WORLD™
+          </li>
+          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">
+            Universal Studios
+          </li>
+          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">
+            Harry Potter
+          </li>
+          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">
+            Shop by Brands
+          </li>
+          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">Sale</li>
+          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">
+            Shop All Merchandise
+          </li>
+          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">
+            Top Sellers
+          </li>
+          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">
+            New Arrivals
+          </li>
+        </ul>
+      </div>
 
       <div class="search-container text-black">
         <form
@@ -985,7 +1081,6 @@
             class="w-full px-4 py-2 focus:outline-none"
           />
           <button type="submit" class="px-4 bg-white">
-            <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="48"
@@ -1009,6 +1104,7 @@ export default {
   props: ["pages", "activePage"],
   data() {
     return {
+      isOpen: false, // Controls the visibility of the dropdown
       activeMenu: null, // Store the active mega menu (null means no menu is open)
     };
   },
@@ -1017,6 +1113,8 @@ export default {
       this.$emit("page-change", index); // Emit means to trigger an event
     },
     toggleMegaMenu(menuName) {
+      this.isOpen = false;
+
       // If the clicked menu is already open, close it; otherwise, open the clicked menu
       if (this.activeMenu === menuName) {
         this.activeMenu = null; // Close the menu if it's already open
