@@ -1167,7 +1167,7 @@ export default {
 }
 
 .searchBox {
-  margin-left: 56rem;
+  margin-left: 58rem;
   font-size: 12pt;
 }
 
