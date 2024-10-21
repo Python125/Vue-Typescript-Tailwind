@@ -54,7 +54,8 @@
           href="#"
           class="text-base align-middle ml-7 mt-1"
           @click.prevent="toggleMegaMenu('superNintendoWorld')"
-        >
+          :class="['px-4 py-2', activeTab === 'superNintendoWorld' ? 'active-tab' : 'inactive-tab']"
+          >
           <span class="ml-1 font-medium">SUPER NINTENDO WORLD™</span>
           <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
           <div class="arrowBtn">
@@ -1024,12 +1025,16 @@
         </div>
       </div>
 
-      <div class="relative dropdown">
-        <button @click="isOpen = !isOpen" class="text-white">
+      <div class="relative menu">
+        <button
+          @click="isOpen = !isOpen"
+          class="text-base align-middle ml-8 mt-2 font-medium"
+        >
           All Departments
-          <div class="ml-2">
+          <div class="arrowBtn">
             <svg
-              class="h-5 w-5"
+              height="12"
+              width="12"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
             >
@@ -1042,30 +1047,24 @@
         </button>
         <ul
           v-if="isOpen"
-          class="absolute mt-2 w-56 bg-blue-900 text-white rounded-md shadow-lg"
+          class="dropdown absolute mt-2 w-56 bg-blue-900 text-white"
         >
-          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">
+          <li class="px-4 py-2 cursor-pointer hover:underline">
             SUPER NINTENDO WORLD™
           </li>
-          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">
+          <li class="px-4 py-2 cursor-pointer hover:underline">
             Universal Studios
           </li>
-          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">
-            Harry Potter
-          </li>
-          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">
+          <li class="px-4 py-2 cursor-pointer hover:underline">Harry Potter</li>
+          <li class="px-4 py-2 cursor-pointer hover:underline">
             Shop by Brands
           </li>
-          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">Sale</li>
-          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">
+          <li class="px-4 py-2 cursor-pointer hover:underline">Sale</li>
+          <li class="px-4 py-2 cursor-pointer hover:underline">
             Shop All Merchandise
           </li>
-          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">
-            Top Sellers
-          </li>
-          <li class="px-4 py-2 hover:bg-blue-800 cursor-pointer">
-            New Arrivals
-          </li>
+          <li class="px-4 py-2 cursor-pointer hover:underline">Top Sellers</li>
+          <li class="px-4 py-2 cursor-pointer hover:underline">New Arrivals</li>
         </ul>
       </div>
 
@@ -1106,6 +1105,7 @@ export default {
     return {
       isOpen: false, // Controls the visibility of the dropdown
       activeMenu: null, // Store the active mega menu (null means no menu is open)
+      activeTab: null, // Store the active tab to change its background color
     };
   },
   methods: {
@@ -1121,6 +1121,10 @@ export default {
       } else {
         this.activeMenu = menuName; // Set the clicked menu as active
       }
+    },
+    setActiveTab(tabName) {
+      // Set the clicked tab as active
+      this.activeTab = tabName;
     },
   },
 };
@@ -1158,6 +1162,10 @@ export default {
 
 .mega-menu {
   width: 855px;
+}
+
+.dropdown {
+  width: 350px;
 }
 
 .searchBox {
