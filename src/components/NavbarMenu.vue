@@ -1024,7 +1024,7 @@
         </div>
       </div>
 
-      <div class="relative menu">
+      <div class="relative">
         <button
           @click="isOpen = !isOpen"
           class="text-base align-middle ml-8 mt-2 font-medium"
