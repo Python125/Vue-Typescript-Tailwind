@@ -1105,7 +1105,6 @@ export default {
     return {
       isOpen: false, // Controls the visibility of the dropdown
       activeMenu: null, // Store the active mega menu (null means no menu is open)
-      activeTab: null, // Store the active tab to change its background color
     };
   },
   methods: {
@@ -1121,10 +1120,6 @@ export default {
       } else {
         this.activeMenu = menuName; // Set the clicked menu as active
       }
-    },
-    setActiveTab(tabName) {
-      // Set the clicked tab as active
-      this.activeTab = tabName;
     },
   },
 };
