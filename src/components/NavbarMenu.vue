@@ -54,8 +54,7 @@
           href="#"
           class="text-base align-middle ml-7 mt-1"
           @click.prevent="toggleMegaMenu('superNintendoWorld')"
-          :class="['px-4 py-2', activeTab === 'superNintendoWorld' ? 'active-tab' : 'inactive-tab']"
-          >
+        >
           <span class="ml-1 font-medium">SUPER NINTENDO WORLD™</span>
           <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
           <div class="arrowBtn">
