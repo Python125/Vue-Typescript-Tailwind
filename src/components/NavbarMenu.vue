@@ -88,7 +88,7 @@
         </a>
         <div
           v-if="activeMenu === 'superNintendoWorld'"
-          class="absolute ml-7 top-full bg-blue-900 text-white p-6 shadow-lg"
+          class="absolute ml-8 top-full bg-blue-900 text-white p-6 shadow-lg"
         >
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
@@ -179,7 +179,7 @@
         </a>
         <div
           v-if="activeMenu === 'universalStudios'"
-          class="absolute ml-7 top-full bg-blue-900 text-white p-6 shadow-lg"
+          class="absolute ml-8 top-full bg-blue-900 text-white p-6 shadow-lg"
         >
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
@@ -329,7 +329,7 @@
         </a>
         <div
           v-if="activeMenu === 'harryPotter'"
-          class="absolute ml-7 top-full bg-blue-900 text-white p-6 shadow-lg"
+          class="absolute ml-8 top-full bg-blue-900 text-white p-6 shadow-lg"
         >
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
@@ -541,7 +541,7 @@
         </a>
         <div
           v-if="activeMenu === 'shopByBrands'"
-          class="absolute ml-7 top-full bg-blue-900 text-white p-6 shadow-lg"
+          class="absolute ml-8 top-full bg-blue-900 text-white p-6 shadow-lg"
         >
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
@@ -686,11 +686,11 @@
         </a>
         <div
           v-if="activeMenu === 'sale'"
-          class="absolute ml-7 top-full bg-blue-900 text-white p-6 shadow-lg"
+          class="absolute ml-8 top-full bg-blue-900 text-white p-6 shadow-lg"
         >
           <div class="one-item-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold"><a href="#">Sale</a></h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">Sale</a></h3>
             </div>
           </div>
         </div>
@@ -719,7 +719,7 @@
         </a>
         <div
           v-if="activeMenu === 'shopAllMerchandise'"
-          class="absolute left-0 top-full bg-blue-900 text-white p-6 shadow-lg"
+          class="absolute ml-8 top-full bg-blue-900 text-white p-6 shadow-lg"
         >
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
@@ -929,7 +929,7 @@
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold mt-5">TREATS</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">TREATS</a></h3>
             </div>
           </div>
         </div>
@@ -958,11 +958,11 @@
         </a>
         <div
           v-if="activeMenu === 'topSellers'"
-          class="absolute ml-7 top-full bg-blue-900 text-white p-6 shadow-lg"
+          class="absolute ml-8 top-full bg-blue-900 text-white p-6 shadow-lg"
         >
           <div class="one-item-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold"><a href="#">Top Sellers</a></h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">Top Sellers</a></h3>
             </div>
           </div>
         </div>
@@ -991,11 +991,11 @@
         </a>
         <div
           v-if="activeMenu === 'newArrivals'"
-          class="absolute ml-7 top-full bg-blue-900 text-white p-6 shadow-lg"
+          class="absolute ml-8 top-full bg-blue-900 text-white p-6 shadow-lg"
         >
           <div class="one-item-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold"><a href="#">New Arrivals</a></h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">New Arrivals</a></h3>
             </div>
           </div>
         </div>
@@ -1023,7 +1023,7 @@
         </button>
         <ul
           v-if="isOpen"
-          class="dropdown absolute mt-2 ml-7 w-56 bg-blue-900 text-white text-sm font-bold"
+          class="dropdown absolute mt-2 ml-8 w-56 bg-blue-900 text-white text-sm font-bold"
         >
           <li class="px-4 py-2 cursor-pointer hover:underline">
             SUPER NINTENDO WORLD™
