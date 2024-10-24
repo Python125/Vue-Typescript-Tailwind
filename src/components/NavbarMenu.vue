@@ -92,24 +92,24 @@
         >
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">ACCESSORIES</h3>
+              <h3 class="text-lg font-bold hover:underline">
+                <a href="#">ACCESSORIES</a>
+              </h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Bags</a>
+                  <a href="#" class="text-base hover:underline">Bags</a>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">APPAREL</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="">APPAREL</a></h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Adult T-Shirts</a
-                  >
+                  <a href="#" class="text-base hover:underline">Adult T-Shirts</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Youth T-Shirts</a
                   >
                 </li>
@@ -117,42 +117,38 @@
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">HEADWEAR</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="">HEADWEAR</a></h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold mt-5">HOME DECORATIONS</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="">HOME DECORATIONS</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">SOUVENIRS</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">SOUVENIRS</a></h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Drinkware</a
-                  >
+                  <a href="#" class="text-base hover:underline">Drinkware</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Key Chains</a
-                  >
+                  <a href="#" class="text-base hover:underline">Key Chains</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Lanyards</a>
+                  <a href="#" class="text-base hover:underline">Lanyards</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Pins</a>
+                  <a href="#" class="text-base hover:underline">Pins</a>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">TOYS</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">TOYS</a></h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Plush</a>
+                  <a href="#" class="text-base hover:underline">Plush</a>
                 </li>
               </ul>
             </div>
@@ -187,72 +183,70 @@
         >
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">LOVE IS UNIVERSAL</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">LOVE IS UNIVERSAL</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">EARL THE SQUIRREL</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">EARL THE SQUIRREL</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">GREAT MOVIE ESCAPE</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">GREAT MOVIE ESCAPE</a></h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold mt-5">ACCESSORIES</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">ACCESSORIES</a></h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Bags</a>
+                  <a href="#" class="text-base hover:underline">Bags</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Patches</a>
+                  <a href="#" class="text-base hover:underline">Patches</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Socks</a>
+                  <a href="#" class="text-base hover:underline">Socks</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Travel</a>
+                  <a href="#" class="text-base hover:underline">Travel</a>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">APPAREL</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">APPAREL</a></h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Adult Fashion Tops</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Adult Loungewear</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Adult Outerwear</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Adult Shorts</a
-                  >
+                  <a href="#" class="text-base hover:underline">Adult Shorts</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Adult T-Shirts</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Youth Outerwear</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Youth T-Shirts</a
                   >
                 </li>
@@ -260,57 +254,51 @@
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">COLLECTIBLES</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">COLLECTIBLES</a></h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold mt-5">HEADWEAR</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">HEADWEAR</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">HOLIDAY</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">HOLIDAY</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">HOME DECORATIONS</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">HOME DECORATIONS</a></h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold mt-5">SOUVENIRS</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">SOUVENIRS</a></h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Beach Towels</a
-                  >
+                  <a href="#" class="text-base hover:underline">Beach Towels</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Drinkware</a
-                  >
+                  <a href="#" class="text-base hover:underline">Drinkware</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Key Chains</a
-                  >
+                  <a href="#" class="text-base hover:underline">Key Chains</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Lanyards</a>
+                  <a href="#" class="text-base hover:underline">Lanyards</a>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">TOYS</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">TOYS</a></h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Plush</a>
+                  <a href="#" class="text-base hover:underline">Plush</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Toys</a>
+                  <a href="#" class="text-base hover:underline">Toys</a>
                 </li>
               </ul>
             </div>
@@ -345,88 +333,86 @@
         >
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">GRYFFINDOR</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">GRYFFINDOR</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">SLYTHERIN</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">SLYTHERIN</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">RAVENCLAW</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">RAVENCLAW</a></h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold mt-5">HUFFLEPUFF</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">HUFFLEPUFF</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">ACCESSORIES</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">ACCESSORIES</a></h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Bags</a>
+                  <a href="#" class="text-base hover:underline">Bags</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Gloves</a>
+                  <a href="#" class="text-base hover:underline">Gloves</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Jewelry</a>
+                  <a href="#" class="text-base hover:underline">Jewelry</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Neckwear</a>
+                  <a href="#" class="text-base hover:underline">Neckwear</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Patches</a>
+                  <a href="#" class="text-base hover:underline">Patches</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Socks</a>
+                  <a href="#" class="text-base hover:underline">Socks</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Travel</a>
+                  <a href="#" class="text-base hover:underline">Travel</a>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">APPAREL</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">APPAREL</a></h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Adult Fashion Tops</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Adult Loungewear</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Adult Outerwear</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Adult Shorts</a
-                  >
+                  <a href="#" class="text-base hover:underline">Adult Shorts</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Adult T-Shirts</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Infant</a>
+                  <a href="#" class="text-base hover:underline">Infant</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Youth Outerwear</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Youth T-Shirts</a
                   >
                 </li>
@@ -436,29 +422,29 @@
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold mt-5">COLLECTIBLES</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">COLLECTIBLES</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">COSTUMES</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">COSTUMES</a></h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Costume Accessories</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Costume Props</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Costume Apparel</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Character Wands</a
                   >
                 </li>
@@ -466,58 +452,48 @@
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">HEADWEAR</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">HEADWEAR</a></h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold mt-5">HOLIDAY</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">HOLIDAY</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">HOME DECORATIONS</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">HOME DECORATIONS</a></h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Dinnerware</a
-                  >
+                  <a href="#" class="text-base hover:underline">Dinnerware</a>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">SOUVENIRS</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">SOUVENIRS</a></h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Beach Towels</a
-                  >
+                  <a href="#" class="text-base hover:underline">Beach Towels</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Drinkware</a
-                  >
+                  <a href="#" class="text-base hover:underline">Drinkware</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Key Chains</a
-                  >
+                  <a href="#" class="text-base hover:underline">Key Chains</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Lanyards</a>
+                  <a href="#" class="text-base hover:underline">Lanyards</a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Magnets</a>
+                  <a href="#" class="text-base hover:underline">Magnets</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Pins</a>
+                  <a href="#" class="text-base hover:underline">Pins</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Stationery</a
-                  >
+                  <a href="#" class="text-base hover:underline">Stationery</a>
                 </li>
               </ul>
             </div>
@@ -525,18 +501,18 @@
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold mt-5">TOYS</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">TOYS</a></h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Plush</a>
+                  <a href="#" class="text-base hover:underline">Plush</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Toys</a>
+                  <a href="#" class="text-base hover:underline">Toys</a>
                 </li>
               </ul>
             </div>
             <div>
-              <h3 class="text-lg font-bold mt-5">TREATS</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">TREATS</a></h3>
             </div>
           </div>
         </div>
@@ -569,119 +545,119 @@
         >
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">BACK TO THE FUTURE</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">BACK TO THE FUTURE</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">JAWS</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">JAWS</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold">THE TRIBUTE STORE</h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold mt-5">UNIVRS</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold mt-5">SUPER NINTENDO WORLD™</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold mt-5">BETTY BOOP</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">THE TRIBUTE STORE</a></h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold mt-5">DARK UNIVERSE</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">UNIVRS</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">DREAMWORKS LAND</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">SUPER NINTENDO WORLD™</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">EPIC UNIVERSE</h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold mt-5">ET</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold mt-5">FANTASTIC BEASTS</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold mt-5">FAST & FURIOUS</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">BETTY BOOP</a></h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold mt-5">HALLOWEEN HORROR NIGHTS</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">DARK UNIVERSE</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">HARRY POTTER</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">DREAMWORKS LAND</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">HELLO KITTY</h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold mt-5">HOW TO TRAIN YOUR DRAGON</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold mt-5">JURASSIC WORLD</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold mt-5">MINION LAND</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">EPIC UNIVERSE</a></h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold mt-5">SECRET LIFE OF PETS</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">ET</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">REIGN OF KONG</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">FANTASTIC BEASTS</a></h3>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">THE BOURNE STUNTACULAR</h3>
-            </div>
-          </div>
-
-          <div class="mega-menu grid grid-cols-4 gap-8">
-            <div>
-              <h3 class="text-lg font-bold mt-5">THE TONIGHT SHOP</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold mt-5">TRANSFORMERS</h3>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-bold mt-5">UNIVERSAL STUDIOS</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">FAST & FURIOUS</a></h3>
             </div>
           </div>
 
           <div class="mega-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold mt-5">VOLCANO BAY</h3>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">HALLOWEEN HORROR NIGHTS</a></h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">HARRY POTTER</a></h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">HELLO KITTY</a></h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">HOW TO TRAIN YOUR DRAGON</a></h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">JURASSIC WORLD</a></h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">MINION LAND</a></h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">SECRET LIFE OF PETS</a></h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">REIGN OF KONG</a></h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">THE BOURNE STUNTACULAR</a></h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">THE TONIGHT SHOP</a></h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">TRANSFORMERS</a></h3>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">UNIVERSAL STUDIOS</a></h3>
+            </div>
+          </div>
+
+          <div class="mega-menu grid grid-cols-4 gap-8">
+            <div>
+              <h3 class="text-lg font-bold hover:underline"><a href="#">VOLCANO BAY</a></h3>
             </div>
           </div>
         </div>
@@ -714,7 +690,7 @@
         >
           <div class="one-item-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">Sale</h3>
+              <h3 class="text-lg font-bold"><a href="#">Sale</a></h3>
             </div>
           </div>
         </div>
@@ -754,29 +730,25 @@
               <h3 class="text-lg font-bold">PARK ESSENTIALS</h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Bags</a>
+                  <a href="#" class="text-base hover:underline">Bags</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Travel</a>
+                  <a href="#" class="text-base hover:underline">Travel</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Headwear</a>
+                  <a href="#" class="text-base hover:underline">Headwear</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Beach Towels</a
-                  >
+                  <a href="#" class="text-base hover:underline">Beach Towels</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Drinkware</a
-                  >
+                  <a href="#" class="text-base hover:underline">Drinkware</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Lanyards</a>
+                  <a href="#" class="text-base hover:underline">Lanyards</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Hogwarts™ Essentials</a
                   >
                 </li>
@@ -793,31 +765,31 @@
               <h3 class="text-lg font-bold mt-5">ACCESSORIES</h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Bags</a>
+                  <a href="#" class="text-base hover:underline">Bags</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Gloves</a>
+                  <a href="#" class="text-base hover:underline">Gloves</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Jewelry</a>
+                  <a href="#" class="text-base hover:underline">Jewelry</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Neckwear</a>
+                  <a href="#" class="text-base hover:underline">Neckwear</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Patches</a>
+                  <a href="#" class="text-base hover:underline">Patches</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Pets</a>
+                  <a href="#" class="text-base hover:underline">Pets</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Slippers</a>
+                  <a href="#" class="text-base hover:underline">Slippers</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Socks</a>
+                  <a href="#" class="text-base hover:underline">Socks</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Travel</a>
+                  <a href="#" class="text-base hover:underline">Travel</a>
                 </li>
               </ul>
             </div>
@@ -826,51 +798,49 @@
               <h3 class="text-lg font-bold mt-5">APPAREL</h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Adult Fashion Tops</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Adult Loungewear</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Adult Outerwear</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Adult Shorts</a
-                  >
+                  <a href="#" class="text-base hover:underline">Adult Shorts</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Adult T-Shirts</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Infant</a>
+                  <a href="#" class="text-base hover:underline">Infant</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Shorts</a>
+                  <a href="#" class="text-base hover:underline">Shorts</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Toddler</a>
+                  <a href="#" class="text-base hover:underline">Toddler</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Youth Fashion Tops</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Youth Outerwear</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Youth T-Shirts</a
                   >
                 </li>
@@ -881,15 +851,15 @@
               <h3 class="text-lg font-bold mt-5">COLLECTIBLES</h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
+                  <a href="#" class="text-base hover:underline"
                     >Interactive Wands</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Replicas</a>
+                  <a href="#" class="text-base hover:underline">Replicas</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Wands</a>
+                  <a href="#" class="text-base hover:underline">Wands</a>
                 </li>
               </ul>
             </div>
@@ -915,51 +885,43 @@
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">SOUVENIRS</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">SOUVENIRS</a></h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Bags</a>
+                  <a href="#" class="text-base hover:underline">Bags</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Beach Towels</a
-                  >
+                  <a href="#" class="text-base hover:underline">Beach Towels</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Drinkware</a
-                  >
+                  <a href="#" class="text-base hover:underline">Drinkware</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Key Chains</a
-                  >
+                  <a href="#" class="text-base hover:underline">Key Chains</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Lanyards</a>
+                  <a href="#" class="text-base hover:underline">Lanyards</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Magnets</a>
+                  <a href="#" class="text-base hover:underline">Magnets</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Pins</a>
+                  <a href="#" class="text-base hover:underline">Pins</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300"
-                    >Stationery</a
-                  >
+                  <a href="#" class="text-base hover:underline">Stationery</a>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 class="text-lg font-bold mt-5">TOYS</h3>
+              <h3 class="text-lg font-bold mt-5 hover:underline"><a href="#">TOYS</a></h3>
               <ul>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Plush</a>
+                  <a href="#" class="text-base hover:underline">Plush</a>
                 </li>
                 <li>
-                  <a href="#" class="text-base hover:text-gray-300">Toys</a>
+                  <a href="#" class="text-base hover:underline">Toys</a>
                 </li>
               </ul>
             </div>
@@ -1000,7 +962,7 @@
         >
           <div class="one-item-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">Top Sellers</h3>
+              <h3 class="text-lg font-bold"><a href="#">Top Sellers</a></h3>
             </div>
           </div>
         </div>
@@ -1033,7 +995,7 @@
         >
           <div class="one-item-menu grid grid-cols-4 gap-8">
             <div>
-              <h3 class="text-lg font-bold">New Arrivals</h3>
+              <h3 class="text-lg font-bold"><a href="#">New Arrivals</a></h3>
             </div>
           </div>
         </div>
