@@ -6,7 +6,7 @@
     :title="`This link goes to the ${page.link.text} page`"
     @click="handleNavLinkClick(index)"
   >
-    {{ page.link.text }}
+    {{ page.link.text }} <!-- This is called "interpolation" or "mustache syntax". It allows you to embed dynamic data directly within your HTML. -->
   </router-link>
 </template>
 

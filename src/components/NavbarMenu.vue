@@ -1076,20 +1076,13 @@
 
 <script>
 export default {
-  props: ["pages", "activePage"],
   data() {
     return {
-      isOpen: false, // Controls the visibility of the dropdown
-      activeMenu: null, // Store the active mega menu (null means no menu is open)
+      activeMenu: null, // Store the active menu (null means no menu is open)
     };
   },
   methods: {
-    // handleNavLinkClick(index) {
-    //   this.$emit("page-change", index); // Emit means to trigger an event
-    // },
     toggleMegaMenu(menuName) {
-      this.isOpen = false;
-
       // If the clicked menu is already open, close it; otherwise, open the clicked menu
       if (this.activeMenu === menuName) {
         this.activeMenu = null; // Close the menu if it's already open
