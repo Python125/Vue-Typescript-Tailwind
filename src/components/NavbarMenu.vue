@@ -71,7 +71,7 @@
           class="text-base align-middle ml-7 mt-1"
           @click.prevent="toggleMegaMenu('superNintendoWorld')"
         >
-          <span class="ml-1 font-medium">SUPER NINTENDO WORLD™</span>
+        <span class="ml-1 font-medium">SUPER NINTENDO WORLD™</span>
           <div class="arrowBtn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -1003,7 +1003,7 @@
 
       <div class="relative">
         <button
-          @click="isOpen = !isOpen"
+          @click.prevent="toggleMegaMenu('allDepartments')"
           class="text-base align-middle ml-8 mt-2 font-medium"
         >
           All Departments
@@ -1022,7 +1022,7 @@
           </div>
         </button>
         <ul
-          v-if="isOpen"
+          v-if="activeMenu === 'allDepartments'"
           class="dropdown absolute mt-2 ml-8 w-56 bg-blue-900 text-white text-sm font-bold"
         >
           <li class="px-4 py-2 cursor-pointer hover:underline">
