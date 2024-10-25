@@ -1084,9 +1084,9 @@ export default {
     };
   },
   methods: {
-    handleNavLinkClick(index) {
-      this.$emit("page-change", index); // Emit means to trigger an event
-    },
+    // handleNavLinkClick(index) {
+    //   this.$emit("page-change", index); // Emit means to trigger an event
+    // },
     toggleMegaMenu(menuName) {
       this.isOpen = false;
 
