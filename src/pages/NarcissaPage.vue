@@ -48,7 +48,7 @@
 
 <script>
 export default {
-  name: "LunaPage",
+  name: "NarcissaPage",
   data() {
     return {
       ollivandersImage: require("@/assets/ollivanders-logo.png"),

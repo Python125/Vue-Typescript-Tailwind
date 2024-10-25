@@ -49,7 +49,7 @@
 
 <script>
 export default {
-  name: "LunaPage",
+  name: "GeorgePage",
   data() {
     return {
       ollivandersImage: require("@/assets/ollivanders-logo.png"),

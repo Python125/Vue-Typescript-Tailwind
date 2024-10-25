@@ -425,7 +425,6 @@ export default {
       dumbledoreWand: require("@/assets/images/Interactive-Professor-Dumbledore-Wand.png"),
       mcgonagallWand: require("@/assets/images/Interactive-Professor-Mcgonagall-Wand.png"),
       snapeWand: require("@/assets/images/Interactive-Professor-Snape-Wand.png"),
-
       arthurWand: require("@/assets/images/Interactive-Arthur-Weasley-Wand.png"),
       mollyWand: require("@/assets/images/Interactive-Molly-Weasley-Wand.png"),
       fredWand: require("@/assets/images/Interactive-Fred-Weasley-Wand.png"),
