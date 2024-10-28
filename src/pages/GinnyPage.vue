@@ -10,7 +10,7 @@
         <img :src="ginnyWand" alt="Ginny" class="w-96" />
         <div class="mt-0.5"></div>
       </div>
-      
+
       <div class="ml-16">
         <h1 class="text-4xl text-center">Interactive Ginny Weasley™ Wand</h1>
       </div>
@@ -26,7 +26,7 @@
         <div class="mt-2">
           <router-link to="/ginny">
             <button
-              class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl"
+              class="mt-5 bg-custom-lightblue text-white text-xl py-2 px-6 rounded-lg hover:bg-custom-darkblue hover:shadow-2xl hover:scale-105 cursor-pointer transition-all active:scale-95 active:bg-custom-darkerblue focus:outline-none focus:ring-0"
             >
               Add to Cart
             </button>
