@@ -40,13 +40,6 @@
                 </svg>
               </div>
             </button>
-            <!-- <button class="cart-btn mt-1">
-              <img
-                src="@/assets/shopping-cart.png"
-                alt="Shopping Cart"
-                class="rounded w-14 mb-2"
-              />
-            </button> -->
           </li>
         </ul>
       </div>
